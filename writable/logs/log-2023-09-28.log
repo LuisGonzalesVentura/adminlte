@@ -1,0 +1,56 @@
+CRITICAL - 2023-09-28 22:31:31 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Login::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Login::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 22:31:41 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Login::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Login::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 22:32:44 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Login::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Login::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 22:33:58 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Login::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Login::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 22:33:59 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Login::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Login::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 22:33:59 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Login::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Login::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 22:33:59 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Login::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Login::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,126 @@
+CRITICAL - 2023-10-03 20:34:18 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:34:21 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:44:26 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:44:37 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:44:38 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:44:38 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:45:17 --> include(Register/register.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Login\index.php on line 77.
+ 1 APPPATH\Views\Login\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Register/register.php): Failed to open stream: No such file or directory', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php', 77)
+ 2 APPPATH\Views\Login\index.php(77): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 6 APPPATH\Controllers\Login.php(10): view('Login/index')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:45:18 --> include(Register/register.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Login\index.php on line 77.
+ 1 APPPATH\Views\Login\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Register/register.php): Failed to open stream: No such file or directory', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php', 77)
+ 2 APPPATH\Views\Login\index.php(77): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 6 APPPATH\Controllers\Login.php(10): view('Login/index')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:45:24 --> include(Register/register.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Login\index.php on line 77.
+ 1 APPPATH\Views\Login\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Register/register.php): Failed to open stream: No such file or directory', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php', 77)
+ 2 APPPATH\Views\Login\index.php(77): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 6 APPPATH\Controllers\Login.php(10): view('Login/index')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:45:24 --> include(Register/register.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Login\index.php on line 77.
+ 1 APPPATH\Views\Login\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Register/register.php): Failed to open stream: No such file or directory', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php', 77)
+ 2 APPPATH\Views\Login\index.php(77): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 6 APPPATH\Controllers\Login.php(10): view('Login/index')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:45:50 --> include(Register/register.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Login\index.php on line 77.
+ 1 APPPATH\Views\Login\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Register/register.php): Failed to open stream: No such file or directory', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php', 77)
+ 2 APPPATH\Views\Login\index.php(77): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 6 APPPATH\Controllers\Login.php(10): view('Login/index')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:45:50 --> include(Register/register.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Login\index.php on line 77.
+ 1 APPPATH\Views\Login\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Register/register.php): Failed to open stream: No such file or directory', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php', 77)
+ 2 APPPATH\Views\Login\index.php(77): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Login\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 6 APPPATH\Controllers\Login.php(10): view('Login/index')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

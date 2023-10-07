@@ -1,0 +1,82 @@
+CRITICAL - 2023-10-05 22:30:13 --> Undefined variable $router
+in APPPATH/Config/Routes.php on line 8.
+ 1 APPPATH/Config/Routes.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', '/opt/lampp/htdocs/adminlte/app/Config/Routes.php', 8)
+ 2 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/adminlte/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 22:30:17 --> Undefined variable $router
+in APPPATH/Config/Routes.php on line 8.
+ 1 APPPATH/Config/Routes.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', '/opt/lampp/htdocs/adminlte/app/Config/Routes.php', 8)
+ 2 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/adminlte/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 22:37:09 --> Call to undefined method CodeIgniter\Router\RouteCollection::setAutoRute()
+in APPPATH/Config/Routes.php on line 10.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 22:40:07 --> Call to undefined method CodeIgniter\Router\RouteCollection::setAutoRute()
+in APPPATH/Config/Routes.php on line 14.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 22:40:09 --> Call to undefined method CodeIgniter\Router\RouteCollection::setAutoRute()
+in APPPATH/Config/Routes.php on line 14.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 22:55:07 --> Call to undefined method CodeIgniter\Router\RouteCollection::setAutoRute()
+in APPPATH/Config/Routes.php on line 14.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 22:55:11 --> Call to undefined method CodeIgniter\Router\RouteCollection::setAutoRute()
+in APPPATH/Config/Routes.php on line 14.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 23:41:11 --> Cannot use temporary expression in write context
+in APPPATH/Controllers/Login.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 23:41:22 --> Cannot use temporary expression in write context
+in APPPATH/Controllers/Login.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 23:41:31 --> syntax error, unexpected token "="
+in APPPATH/Controllers/Login.php on line 13.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/adminlte/app/Controllers/Login.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 23:41:51 --> Class "codeIgniter\Model" not found
+in APPPATH/Models/Usuario.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(306): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/adminlte/app/Models/Usuario.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Usuario')
+ 4 APPPATH/Controllers/Login.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Usuario')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 23:43:31 --> Cannot use temporary expression in write context
+in APPPATH/Controllers/Login.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 23:45:09 --> Cannot use temporary expression in write context
+in APPPATH/Controllers/Login.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

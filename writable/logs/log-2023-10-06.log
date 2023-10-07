@@ -1,0 +1,1049 @@
+CRITICAL - 2023-10-06 00:19:02 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH/Views/Login/index.php on line 1.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 3 APPPATH/Controllers/Login.php(19): view('Login/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 00:21:07 --> Undefined variable $libros
+in APPPATH/Views/Login/index.php on line 18.
+ 1 APPPATH/Views/Login/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', '/opt/lampp/htdocs/adminlte/app/Views/Login/index.php', 18)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Login/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH/Controllers/Login.php(19): view('Login/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 00:21:14 --> Undefined variable $datos
+in APPPATH/Views/Login/index.php on line 18.
+ 1 APPPATH/Views/Login/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', '/opt/lampp/htdocs/adminlte/app/Views/Login/index.php', 18)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Login/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH/Controllers/Login.php(19): view('Login/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 00:21:53 --> Undefined variable $usuario
+in APPPATH/Views/Login/index.php on line 18.
+ 1 APPPATH/Views/Login/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', '/opt/lampp/htdocs/adminlte/app/Views/Login/index.php', 18)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Login/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH/Controllers/Login.php(19): view('Login/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 00:21:56 --> Undefined variable $usuario
+in APPPATH/Views/Login/index.php on line 18.
+ 1 APPPATH/Views/Login/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', '/opt/lampp/htdocs/adminlte/app/Views/Login/index.php', 18)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Login/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH/Controllers/Login.php(19): view('Login/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 00:22:02 --> Array to string conversion
+in APPPATH/Views/Login/index.php on line 18.
+ 1 APPPATH/Views/Login/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/adminlte/app/Views/Login/index.php', 18)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Login/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH/Controllers/Login.php(19): view('Login/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 00:46:09 --> Undefined constant "gato"
+in APPPATH/Views/Login/index.php on line 33.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 4 APPPATH/Controllers/Login.php(19): view('Login/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 00:46:17 --> syntax error, unexpected identifier "method"
+in APPPATH/Views/Login/index.php on line 33.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 3 APPPATH/Controllers/Login.php(19): view('Login/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 00:51:02 --> syntax error, unexpected variable "$routes"
+in APPPATH/Config/Routes.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 00:52:30 --> Call to undefined method CodeIgniter\Router\RouteCollection::setAutoRute()
+in APPPATH/Config/Routes.php on line 10.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:17:51 --> syntax error, unexpected token ";"
+in APPPATH/Views/Login/index.php on line 33.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Login/index', [], true)
+ 3 APPPATH/Controllers/Login.php(19): view('Login/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:21:16 --> syntax error, unexpected variable "$emailUsuario"
+in APPPATH/Controllers/Login.php on line 29.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/adminlte/app/Controllers/Login.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:21:39 --> Call to a member function orderBy() on null
+in APPPATH/Controllers/Login.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:23:00 --> Undefined variable $usuario
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:23:05 --> Undefined variable $usuarios
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:27:09 --> Undefined array key 0
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:27:23 --> Undefined array key "usuario"
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:28:27 --> Undefined array key 0
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:28:36 --> Undefined array key 0
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:28:48 --> Array to string conversion
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:29:01 --> Undefined array key "usuario"
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:29:15 --> Undefined array key 0
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:30:52 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Login.php on line 32.
+ 1 SYSTEMPATH/Router/Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/validarIngreso', 'post')
+ 2 SYSTEMPATH/Router/Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/validarIngreso')
+ 3 SYSTEMPATH/CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/validarIngreso')
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:30:58 --> Undefined variable $data
+in APPPATH/Controllers/Login.php on line 29.
+ 1 APPPATH/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:41:59 --> Unsupported operand types: string + string
+in APPPATH/Controllers/Login.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 01:57:17 --> Undefined variable $bien
+in APPPATH/Controllers/Login.php on line 38.
+ 1 APPPATH/Controllers/Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bien', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 02:43:43 --> Undefined array key 1
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 02:50:16 --> Undefined array key 1
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 02:50:51 --> Undefined array key 1
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 02:51:09 --> Undefined array key 1
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 02:52:07 --> Undefined array key 1
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 02:52:21 --> Undefined array key 1
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 02:52:34 --> Undefined array key 1
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 02:57:36 --> Undefined array key 2
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:31:21 --> Invalid file: "escritorio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('escritorio.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('escritorio', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('escritorio')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:35:28 --> Invalid file: "escritorio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('escritorio.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('escritorio', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('escritorio')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:36:40 --> Invalid file: "Dashboar/escritorio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboar/escritorio.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboar/escritorio', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('Dashboar/escritorio')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:53:05 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xamppp\htdocs\adminlte\app\Controllers\Login.php on line 49
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Login.php(49): view('escritorio', 'Dashboard::index')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:53:30 --> Invalid file: "Dashboard::index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard::index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard::index', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('Dashboard::index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:53:57 --> Invalid file: "Dashboard::index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard::index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard::index', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('Dashboard::index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:54:07 --> Invalid file: "Dashboard::index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard::index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard::index', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('Dashboard::index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:54:30 --> Invalid file: "Dashboard/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('Dashboard/index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:55:53 --> Call to undefined method App\Controllers\Login::runController()
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:57:36 --> Invalid file: "Dashboard/escritorio && plantilla.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard/escritorio && plantilla.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio && plantilla', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('Dashboard/escritorio && plantilla')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:58:26 --> Invalid file: "/Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('/Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:58:31 --> Invalid file: "/Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('/Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 03:58:43 --> Invalid file: "Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 04:04:27 --> Invalid file: "Controllers/Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Controllers/Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Controllers/Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('Controllers/Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 04:04:37 --> Invalid file: "/Controllers/Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Controllers/Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/Controllers/Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('/Controllers/Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 04:04:41 --> Invalid file: "/Controllers/Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Controllers/Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/Controllers/Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('/Controllers/Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 04:04:53 --> Invalid file: "/Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('/Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 04:04:58 --> Invalid file: "/Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('/Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 04:05:11 --> Invalid file: "Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 12:20:48 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'dni_bolivia', 3306, '', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 12:20:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+ORDER BY `Idusuario` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 12:21:17 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'dni_bolivia', 3306, '', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 12:21:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+ORDER BY `Idusuario` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 12:21:19 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'dni_bolivia', 3306, '', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 12:21:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+ORDER BY `Idusuario` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:38:42 --> Invalid file: "/Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('/Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:38:52 --> Invalid file: "Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:46:29 --> Invalid file: "Dashboard/escritorio
+          .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard/escritorio
+          .php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio
+          ', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('Dashboard/escritorio
+          ')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:00:01 --> Invalid file: "Dashboard/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('Dashboard/index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:00:07 --> Invalid file: "Dashboard/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('Dashboard/index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:00:48 --> Invalid file: "escritorio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('escritorio.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('escritorio', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('escritorio')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:00:57 --> Invalid file: "escritorio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('escritorio.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('escritorio', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('escritorio')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:02:04 --> Invalid file: "/Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/Dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('/Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:05:02 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xamppp\htdocs\adminlte\app\Controllers\Login.php on line 50
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Login.php(50): view('escritorio', 'Dashboard::index')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:05:17 --> Call to undefined function App\Controllers\get()
+in APPPATH\Controllers\Login.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:15:12 --> Call to undefined method App\Controllers\Login::extend()
+in APPPATH\Controllers\Login.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:15:58 --> Call to undefined method App\Controllers\Login::extend()
+in APPPATH\Controllers\Login.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:16:05 --> Call to undefined method App\Controllers\Login::extend()
+in APPPATH\Controllers\Login.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:22:51 --> Invalid file: "public/escritorio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/escritorio.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/escritorio', [], true)
+ 3 APPPATH\Controllers\Login.php(50): view('public/escritorio')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 19:25:50 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(54): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 19:26:08 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(54): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 19:59:12 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(57): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 19:59:21 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(57): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:00:53 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(53): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:01:02 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(53): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:15:53 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(44): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:15:58 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(44): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:38:13 --> Undefined variable $nombreUsuario
+in APPPATH\Views\Dashboard\plantilla.php on line 91.
+ 1 APPPATH\Views\Dashboard\plantilla.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreUsuario', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(53): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:38:18 --> Undefined variable $nombreUsuario
+in APPPATH\Views\Dashboard\plantilla.php on line 91.
+ 1 APPPATH\Views\Dashboard\plantilla.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreUsuario', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(53): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:38:29 --> Undefined variable $nombreUsuario
+in APPPATH\Views\Dashboard\plantilla.php on line 91.
+ 1 APPPATH\Views\Dashboard\plantilla.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreUsuario', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(52): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:38:33 --> Undefined variable $nombreUsuario
+in APPPATH\Views\Dashboard\plantilla.php on line 91.
+ 1 APPPATH\Views\Dashboard\plantilla.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreUsuario', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(52): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:38:51 --> Undefined variable $usuario
+in APPPATH\Views\Dashboard\plantilla.php on line 91.
+ 1 APPPATH\Views\Dashboard\plantilla.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(52): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:39:00 --> Undefined variable $usuario
+in APPPATH\Views\Dashboard\plantilla.php on line 91.
+ 1 APPPATH\Views\Dashboard\plantilla.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(52): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 20:39:29 --> Undefined variable $usuario
+in APPPATH\Views\Dashboard\plantilla.php on line 91.
+ 1 APPPATH\Views\Dashboard\plantilla.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(52): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:00:55 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(54): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:01:15 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(54): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:01:20 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(54): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:01:31 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(53): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:01:53 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(53): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:02:09 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(53): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:02:41 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(52): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:02:54 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(52): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:26:37 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Login.php on line 36.
+ 1 APPPATH\Controllers\Login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:26:46 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Login.php on line 36.
+ 1 APPPATH\Controllers\Login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:27:00 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(56): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:28:23 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(55): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:28:29 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(55): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:28:45 --> Undefined variable $data
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(55): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:29:10 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(55): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:29:34 --> Undefined variable $data
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(55): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:30:37 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(55): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:31:09 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(56): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 21:31:14 --> Array to string conversion
+in APPPATH\Views\Dashboard\plantilla.php on line 92.
+ 1 APPPATH\Views\Dashboard\plantilla.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\Dashboard\\plantilla.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Views/Dashboard/plantilla', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dashboard/escritorio', [], true)
+ 6 APPPATH\Controllers\Login.php(56): view('Dashboard/escritorio')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
