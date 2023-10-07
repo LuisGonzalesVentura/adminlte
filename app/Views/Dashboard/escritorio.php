@@ -13,7 +13,7 @@
             <a href="#" class="nav-link" >
             <i class="ri-user-fill"></i>
               <p>
-              userrr
+              User
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
