@@ -1,0 +1,84 @@
+ERROR - 2023-10-08 00:15:43 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'dni_bolivia', 3306, '', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 00:15:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+ORDER BY `Idusuario` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-08 00:16:45 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'dni_bolivia', 3306, '', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 00:16:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+ORDER BY `Idusuario` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

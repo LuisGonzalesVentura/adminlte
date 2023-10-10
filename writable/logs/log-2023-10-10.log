@@ -1,0 +1,1008 @@
+ERROR - 2023-10-10 19:00:02 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'dni_bolivia', 3306, '', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\adminlte\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\adminlte\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\adminlte\app\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+#7 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-10 19:00:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+ORDER BY `Idusuario` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 19:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 19:11:14 --> Undefined array key "emailUsuario"
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "emailUsuario"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 19:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 19:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 20:39:07 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 20:39:07 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-10 20:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 20:47:43 --> Undefined array key "emailUsuario"
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "emailUsuario"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 20:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 20:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 21:06:49 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:06:49 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 21:07:23 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:07:23 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 21:07:27 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:07:27 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 21:07:31 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:07:31 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-10 21:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 21:09:42 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:09:42 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 21:17:41 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:17:41 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-10 21:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 21:21:54 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:21:54 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 21:23:32 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:23:32 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 21:23:37 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:23:37 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 21:25:07 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:25:07 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 21:28:15 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIngreso', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIngreso')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 21:28:15 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xamppp\htdocs\adminlte\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Login/validarIn...', NULL)
+#3 C:\xamppp\htdocs\adminlte\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Login/validarIn...')
+#4 C:\xamppp\htdocs\adminlte\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xamppp\htdocs\adminlte\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xamppp\htdocs\adminlte\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xamppp\htdocs\adminlte\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xamppp\htdocs\adminlte\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xamppp\htdocs\adminlte\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xamppp\htdocs\adminlte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-10 21:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 21:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 22:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
