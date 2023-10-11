@@ -14,7 +14,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Editar usuarios</li>
+              <li class="breadcrumb-item active">Eliminar usuario</li>
             </ol>
           </div>
         </div>
@@ -54,17 +54,23 @@
                             <th>ID</th>
                             <th>Nombre completo</th>
                             
-                            <th>Actions</th> <!-- Agregamos la columna de acciones -->
+                            <th>Estado</th> <!-- Agregamos la columna de acciones -->
+                             
+                            <th>Acción</th> <!-- Agregamos la columna de acciones -->
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>183</td>
-                            <td>John Doe</td>
-                            <td>
-                                <a href="<?php echo base_url('formularioDeEditar/formulariodeeditar');?>" class="btn btn-primary">Editar</a>
-                            </td>
-                        </tr>
+                    <tr>
+    <td>183</td>
+    <td>John Doe</td>
+    <td>Activo o inactivo</td>
+
+    <td>
+        <a href="#" class="btn btn-danger">Desactivar</a>
+        <a href="#" class="btn btn-danger">Activar</a>
+    </td>
+</tr>
+
                         <!-- Repite esta estructura para cada fila de datos -->
                     </tbody>
                 </table>
@@ -81,6 +87,7 @@
 
     <script type="text/javascript">
     $("#menuAdministracion").addClass("menu-open");
-    $("#menuUsuarios").addClass("active");
+    $("#desactivarUsuarios").addClass("active");
+
 </script>
     <?=$this->endSection(); ?>

@@ -6,7 +6,7 @@ class Usuarios extends BaseController
 {
 
     private $usuario;
-    private function index()
+    public function index()
     {
         $data['titulo']="Modulo de Usuarios";
         return view("Usuarios/index", $data);

@@ -37,6 +37,7 @@ class Login extends BaseController
 
                  
                $user=$usuario;
+               
               }else
               {
                 echo "error usuario";
@@ -53,7 +54,7 @@ class Login extends BaseController
         }
         else{
         
-        return view("Dashboard/escritorio");
+         return redirect()->to(base_url().'escritorio');
 
           }
 
