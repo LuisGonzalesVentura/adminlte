@@ -1,0 +1,387 @@
+INFO - 2023-10-12 00:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 00:14:13 --> Undefined array key "emailUsuario"
+in APPPATH/Controllers/Login.php on line 34.
+ 1 APPPATH/Controllers/Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "emailUsuario"', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 00:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 00:24:05 --> Undefined array key "emailUsuario"
+in APPPATH/Controllers/Login.php on line 34.
+ 1 APPPATH/Controllers/Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "emailUsuario"', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 00:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 00:24:07 --> Undefined array key "emailUsuario"
+in APPPATH/Controllers/Login.php on line 34.
+ 1 APPPATH/Controllers/Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "emailUsuario"', '/opt/lampp/htdocs/adminlte/app/Controllers/Login.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->validarIngreso()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 00:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 00:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 01:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:00:31 --> Allowed fields must be specified for model: "App\Models\Usuario"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Usuario')
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Controllers/CrearUsuarios.php(19): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:05:57 --> Allowed fields must be specified for model: "App\Models\Usuario"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Usuario')
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Controllers/CrearUsuarios.php(19): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 01:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 01:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:10:26 --> Allowed fields must be specified for model: "App\Models\Usuario"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Usuario')
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Controllers/CrearUsuarios.php(19): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 01:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-12 01:25:18 --> mysqli_sql_exception: Unknown column 'contrasena' in 'field list' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/adminlte/system/Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/adminlte/app/Controllers/CrearUsuarios.php(27): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+#10 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 01:25:18 --> Unknown column 'contrasena' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`nombre`, `apellido`, `email`, `usuario`, `contrasena`, `fecha_nacimiento`, `foto`, `numero`) VALUES (:nombre:, :apellido:, :email:, :usuario:, :contrasena:, :fecha_nacimiento:, :foto:, :numero:)', [...], false)
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/CrearUsuarios.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-12 01:25:58 --> mysqli_sql_exception: Unknown column 'contrasena' in 'field list' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/adminlte/system/Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/adminlte/app/Controllers/CrearUsuarios.php(27): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+#10 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 01:25:58 --> Unknown column 'contrasena' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`nombre`, `apellido`, `email`, `usuario`, `contrasena`, `fecha_nacimiento`, `foto`, `numero`) VALUES (:nombre:, :apellido:, :email:, :usuario:, :contrasena:, :fecha_nacimiento:, :foto:, :numero:)', [...], false)
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/CrearUsuarios.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 01:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 01:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 01:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 01:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:38:38 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:42:15 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 01:45:12 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:45:17 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:46:46 --> Array callback must have exactly two elements
+in APPPATH/Controllers/CrearUsuarios.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 01:47:31 --> Array callback must have exactly two elements
+in APPPATH/Controllers/CrearUsuarios.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:50:45 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:51:10 --> Call to a member function move() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:53:20 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 01:53:55 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 01:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 02:02:06 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 02:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 02:02:53 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/CrearUsuarios.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CrearUsuarios->agregar_usuario()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrearUsuarios))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 02:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 02:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 03:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 03:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 03:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 03:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 03:53:01 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH/Views/Usuarios/listaeditarusuarios.php on line 54.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/listaeditarusuarios', [], true)
+ 3 APPPATH/Controllers/ListaEditarUsuarios.php(16): view('Usuarios/listaeditarusuarios', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\listaeditarusuarios->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\listaeditarusuarios))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 03:54:49 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH/Views/Usuarios/listaeditarusuarios.php on line 54.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/listaeditarusuarios', [], true)
+ 3 APPPATH/Controllers/ListaEditarUsuarios.php(16): view('Usuarios/listaeditarusuarios', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\listaeditarusuarios->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\listaeditarusuarios))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 03:55:30 --> Undefined array key "correo"
+in APPPATH/Views/Usuarios/listaeditarusuarios.php on line 48.
+ 1 APPPATH/Views/Usuarios/listaeditarusuarios.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/listaeditarusuarios.php', 48)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/listaeditarusuarios.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/listaeditarusuarios', [], true)
+ 5 APPPATH/Controllers/ListaEditarUsuarios.php(16): view('Usuarios/listaeditarusuarios', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\listaeditarusuarios->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\listaeditarusuarios))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 03:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 04:02:03 --> Undefined variable $usuario
+in APPPATH/Views/Usuarios/listaeditarusuarios.php on line 45.
+ 1 APPPATH/Views/Usuarios/listaeditarusuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/listaeditarusuarios.php', 45)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/listaeditarusuarios.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/listaeditarusuarios', [], true)
+ 5 APPPATH/Controllers/ListaEditarUsuarios.php(16): view('Usuarios/listaeditarusuarios', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\listaeditarusuarios->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\listaeditarusuarios))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 04:02:30 --> Undefined variable $encrypter
+in APPPATH/Views/Usuarios/listaeditarusuarios.php on line 46.
+ 1 APPPATH/Views/Usuarios/listaeditarusuarios.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $encrypter', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/listaeditarusuarios.php', 46)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/listaeditarusuarios.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/listaeditarusuarios', [], true)
+ 5 APPPATH/Controllers/ListaEditarUsuarios.php(16): view('Usuarios/listaeditarusuarios', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\listaeditarusuarios->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\listaeditarusuarios))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 04:03:00 --> hex2bin(): Input string must be hexadecimal string
+in APPPATH/Views/Usuarios/listaeditarusuarios.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hex2bin(): Input string must be hexadecimal string', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/listaeditarusuarios.php', 47)
+ 2 APPPATH/Views/Usuarios/listaeditarusuarios.php(47): hex2bin('$2y$10$vQvgG0/9l60S3.0fNJ584.0OlKGjkryqWardXHMv19.EPND6.O3A6')
+ 3 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/listaeditarusuarios.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/listaeditarusuarios', [], true)
+ 6 APPPATH/Controllers/ListaEditarUsuarios.php(16): view('Usuarios/listaeditarusuarios', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\listaeditarusuarios->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\listaeditarusuarios))
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 04:03:55 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 137.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(137): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Views/Usuarios/listaeditarusuarios.php(48): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('8758e7f587281b7c578123faf0984ce95a7840804dd9763cdfa965c56c2f8ebd4301d9511d2f7ae1e86960a236b665753dcee2')
+ 3 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/listaeditarusuarios.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/listaeditarusuarios', [], true)
+ 6 APPPATH/Controllers/ListaEditarUsuarios.php(16): view('Usuarios/listaeditarusuarios', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\listaeditarusuarios->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\listaeditarusuarios))
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 04:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-12 04:38:54 --> mysqli_sql_exception: Unknown column 'usuario.id' in 'where clause' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 /opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php(16): CodeIgniter\BaseModel->find('1')
+#7 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-12 04:38:54 --> Unknown column 'usuario.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `usuario`.`id` = :usuario.id:
+ORDER BY `Idusuario` ASC', [...], false)
+ 2 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH/Controllers/FormularioDeEditar.php(16): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 04:39:48 --> mysqli_sql_exception: Unknown column 'usuario.id' in 'where clause' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 /opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php(17): CodeIgniter\BaseModel->find('1')
+#7 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-12 04:39:48 --> Unknown column 'usuario.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `usuario`.`id` = :usuario.id:
+ORDER BY `Idusuario` ASC', [...], false)
+ 2 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH/Controllers/FormularioDeEditar.php(17): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 04:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -5,6 +5,7 @@
 
 <?= $this->section('menu'); ?>
 <!-- Sidebar Menu -->
+
 <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
@@ -19,13 +20,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item" id="menuUsuarios">
-                <a href=" <?php echo base_url('Usuarios/index');?>" class="nav-link">
+                <a href="<?php echo ''?>listaeditarusuarios"  class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editar</p>
                 </a>
               </li>
               <li class="nav-item" id="crearUsuarios">
-                <a href=" <?php echo base_url('CrearUsuarios/crearusuario');?>" class="nav-link">
+                <a href="<?php echo ''?>../crearusuario"  class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Crear</p>
                 </a>

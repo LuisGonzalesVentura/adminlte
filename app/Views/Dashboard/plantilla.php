@@ -3,19 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DNI Bolivia</title> 
+  <title>DNI Bolivia</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
- <link rel="stylesheet" href="<?php  echo  base_url();?>dist/fontawesome-free/css/all.min.css"/>
+  <link rel="stylesheet" href="http://localhost/adminlte/assets/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php  echo  base_url();?>dist/css/adminlte.min.css"type="text/css" />
-    <!-- jquery -->
- <script  type="text/javascript" src="<?php echo base_url();?>plugins/jquery/jquery.min.js"></script>
-
+  <link rel="stylesheet" href="http://localhost/adminlte/public/dist/css/adminlte.min.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
-  
 
 
 <body class="hold-transition sidebar-mini">
@@ -60,8 +56,8 @@
         </div>
       </li>
 
-     
-      
+
+
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
@@ -79,8 +75,8 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="<?php  echo  base_url();?>escritorio" class="brand-link">
-    <img src="<?php  echo  ''?>/dist/img/LogoDNI.png" alt="AdminLTE Logo" style="opacity: 0.9; max-width: 70px;">
+    <a href="../../index3.html" class="brand-link">
+    <img src="http://localhost/adminlte/public/dist/img/LogoDNI.png" alt="AdminLTE Logo" style="opacity: 0.9; max-width: 70px;">
       <span class="brand-text font-weight-light">DNI BOLIVIA</span>
     </a>
 
@@ -89,7 +85,7 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?php  echo  ''?>/dist/img/sin_foto.png" class="img-circle elevation-2" alt="User Image">
+          <img src="http://localhost/adminlte/public/dist/img/sin_foto.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
         <a href="#" class="d-block" >
@@ -119,7 +115,7 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-   
+
 <?=$this->renderSection('contenido');?>
 
   </div>
@@ -129,12 +125,12 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="<?php  echo  base_url();?>dist/js/jquery/jquery.min.js"></script>
+<script src="http://localhost/adminlte/assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="<?php  echo  base_url();?>dist/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="http://localhost/adminlte/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="<?php  echo  base_url();?>dist/js/adminlte.min.js"></script>
+<script src="http://localhost/adminlte/public/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="<?php  echo  base_url();?>dist/js/demo.js"></script>
+<script src="http://localhost/adminlte/public/dist/js/demo.js"></script>
 </body>
-</html> 
+</html>
