@@ -17,10 +17,13 @@ class CrearUsuarios extends BaseController
        $this->usuario=new Usuario();
        $encrypter= \Config\Services::encrypter();
        $clave = bin2hex($encrypter->encrypt(isset($_POST['contrasena']) ? $_POST['contrasena'] : ''));
-       $imagen=$this->request->getFile('fotoUsuario');
-        $nombre=$imagen->getRandomName();
+       
+       $nombre="";
+       if($imagen=$this->request->getFile('fotoUsuario')){
+       
+       $nombre=$imagen->getRandomName();
         $imagen->move("../public/uploads/".$nombre);
-      
+       }
        $datos=['nombre' => isset($_POST['nombre']) ? $_POST['nombre'] : '',
        'apellido' => isset($_POST['apellido']) ? $_POST['apellido'] : '',
        'email' => isset($_POST['email']) ? $_POST['email'] : '',

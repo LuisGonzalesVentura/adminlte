@@ -385,3 +385,467 @@ ORDER BY `Idusuario` ASC', [...], false)
  7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
 INFO - 2023-10-12 04:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 11:51:43 --> Unclosed '{' on line 6
+in APPPATH/Controllers/FormularioDeEditar.php on line 29.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FormularioDeEditar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FormularioDeEditar')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\FormularioDeEditar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 11:52:19 --> Undefined variable $user
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 2.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 2)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(27): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 11:52:52 --> Undefined variable $user
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 2.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 2)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(29): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 11:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 11:52:59 --> Undefined variable $user
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 2.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 2)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(29): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 11:53:41 --> Undefined variable $data
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 27.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 27)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(29): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 11:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 11:55:26 --> Undefined variable $user
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 27.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 27)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(28): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 11:55:31 --> Undefined variable $usuario
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 27.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 27)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(28): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 11:56:53 --> Undefined array key "user"
+in APPPATH/Controllers/FormularioDeEditar.php on line 26.
+ 1 APPPATH/Controllers/FormularioDeEditar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', '/opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php', 26)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 11:57:15 --> Undefined variable $usuario
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 27.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 27)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(29): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 11:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 11:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 12:07:43 --> Undefined array key "contraseña"
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 59.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contraseña"', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 59)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(30): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 12:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 12:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 20:48:16 --> Undefined variable $id
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 39.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 39)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(33): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('2')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 20:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 20:49:27 --> Undefined variable $id
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 39.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 39)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(33): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 20:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 20:49:33 --> Undefined variable $id
+in APPPATH/Views/Usuarios/formulariodeeditar.php on line 39.
+ 1 APPPATH/Views/Usuarios/formulariodeeditar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php', 39)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/adminlte/app/Views/Usuarios/formulariodeeditar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Usuarios/formulariodeeditar', [], true)
+ 5 APPPATH/Controllers/FormularioDeEditar.php(33): view('Usuarios/formulariodeeditar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editar('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 20:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 20:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 20:51:33 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/FormularioDeEditar.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 21:08:23 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/FormularioDeEditar.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 21:08:44 --> Undefined variable $nombre
+in APPPATH/Controllers/FormularioDeEditar.php on line 55.
+ 1 APPPATH/Controllers/FormularioDeEditar.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', '/opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php', 55)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-12 21:09:09 --> mysqli_sql_exception: Unknown column 'usuario.id' in 'where clause' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /opt/lampp/htdocs/adminlte/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php(60): CodeIgniter\Model->update('1', Array)
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+#10 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 21:09:10 --> Unknown column 'usuario.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `clave` = :clave:, `fecha_nacimiento` = :fecha_nacimiento:, `numero` = :numero:, `fecha_modificacion` = :fecha_modificacion:
+WHERE `usuario`.`id` IN :usuario.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/FormularioDeEditar.php(60): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-12 21:09:42 --> mysqli_sql_exception: Unknown column 'usuario.id' in 'where clause' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /opt/lampp/htdocs/adminlte/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php(61): CodeIgniter\Model->update('1', Array)
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+#10 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 21:09:42 --> Unknown column 'usuario.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `clave` = :clave:, `fecha_nacimiento` = :fecha_nacimiento:, `numero` = :numero:, `fecha_modificacion` = :fecha_modificacion:
+WHERE `usuario`.`id` IN :usuario.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/FormularioDeEditar.php(61): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-12 21:10:22 --> mysqli_sql_exception: Unknown column 'usuario.id' in 'where clause' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /opt/lampp/htdocs/adminlte/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php(61): CodeIgniter\Model->update('1', Array)
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+#10 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 21:10:22 --> Unknown column 'usuario.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `clave` = :clave:, `fecha_nacimiento` = :fecha_nacimiento:, `numero` = :numero:, `fecha_modificacion` = :fecha_modificacion:
+WHERE `usuario`.`id` IN :usuario.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/FormularioDeEditar.php(61): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-12 21:11:22 --> mysqli_sql_exception: Unknown column 'usuario.id' in 'where clause' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /opt/lampp/htdocs/adminlte/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php(61): CodeIgniter\Model->update('1', Array)
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+#10 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 21:11:22 --> Unknown column 'usuario.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `clave` = :clave:, `fecha_nacimiento` = :fecha_nacimiento:, `numero` = :numero:, `fecha_modificacion` = :fecha_modificacion:
+WHERE `usuario`.`id` IN :usuario.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/FormularioDeEditar.php(61): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-12 21:13:43 --> mysqli_sql_exception: Unknown column 'usuario.id' in 'where clause' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /opt/lampp/htdocs/adminlte/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php(61): CodeIgniter\Model->update('1', Array)
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+#10 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-12 21:13:43 --> Unknown column 'usuario.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `clave` = :clave:, `fecha_nacimiento` = :fecha_nacimiento:, `numero` = :numero:
+WHERE `usuario`.`id` IN :usuario.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/FormularioDeEditar.php(61): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-12 21:33:18 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/adminlte/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/adminlte/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/adminlte/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/adminlte/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/adminlte/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php(70): CodeIgniter\BaseModel->first()
+#7 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+#8 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+#9 /opt/lampp/htdocs/adminlte/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/adminlte/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-12 21:33:18 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/FormularioDeEditar.php(70): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 21:34:16 --> unlink(../public/uploads/): Es un directorio
+in APPPATH/Controllers/FormularioDeEditar.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Es un directorio', '/opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php', 72)
+ 2 APPPATH/Controllers/FormularioDeEditar.php(72): unlink('../public/uploads/')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-12 21:35:07 --> unlink(../public/uploads/): Es un directorio
+in APPPATH/Controllers/FormularioDeEditar.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Es un directorio', '/opt/lampp/htdocs/adminlte/app/Controllers/FormularioDeEditar.php', 74)
+ 2 APPPATH/Controllers/FormularioDeEditar.php(74): unlink('../public/uploads/')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\formularioDeEditar->editarUsuario('1')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\formularioDeEditar))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-12 21:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-12 21:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

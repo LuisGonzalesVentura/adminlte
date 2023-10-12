@@ -36,47 +36,46 @@
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form>
+                    <form action="<?php echo 'http://localhost/adminlte/public/FormularioDeEditar/editarUsuario/'.$id?>" method='post' enctype="multipart/form-data">
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="exampleInputnombre">Nombre</label>
-                                <input name="nombre" type="nombre" class="form-control" id="exampleInputEmail1" placeholder="Ingresar nombre">
+                                <input name="nombre" type="nombre" class="form-control" id="exampleInputEmail1" placeholder="Ingresar nombre" value="<?php echo $user['nombre']?>">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputapellido">Apellido</label>
-                                <input type="apellido" class="form-control" id="exampleInputPassword1" placeholder="Ingresa apellidos">
+                                <input name="apellido" class="form-control" id="exampleInputPassword1" placeholder="Ingresa apellidos" value="<?php echo $user['apellido']?>">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingresa email">
+                                <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingresa email" value="<?php echo $user['email']?>">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputUsuario">Usuario</label>
-                                <input type="usuario" class="form-control" id="exampleInputEmail1" placeholder="Ingresa usuario">
+                                <input name="usuario" class="form-control" id="exampleInputEmail1" placeholder="Ingresa usuario" value="<?php echo $user['usuario']?>">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Contraseña</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="contraseña">
+                                <input name="contrasena" type="password" class="form-control" id="exampleInputPassword1" placeholder="contraseña" >
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Fecha nacimiento</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Fecha nacimiento">
+                                <input name="fecha_nacimiento"type="date" class="form-control" id="exampleInputEmail1" placeholder="Fecha nacimiento" value="<?php echo $user['fecha_nacimiento']?>">
                             </div>
+                            
                             <div class="form-group">
-                                <label for="exampleInputFile">Foto</label>
+                                <label for="exampleInputFile">Foto</label></br>
+                                <label><?php echo "Archivo:".$user['foto']?></label>
                                 <div class="input-group">
                                     <div class="custom-file">
-                                        <input type="file" class="custom-file-input" id="exampleInputFile">
+                                        <input name="fotoUsuario" type="file" class="custom-file-input" id="exampleInputFile">
                                         <label class="custom-file-label" for="exampleInputFile">foto</label>
-                                    </div>
-                                    <div class="input-group-append">
-                                        <span class="input-group-text">Subir</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Numero</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Numero">
+                                <input  class="form-control" id="exampleInputPassword1" placeholder="Numero" value="<?php echo $user['numero']?>">
                             </div>
                             
                         </div>

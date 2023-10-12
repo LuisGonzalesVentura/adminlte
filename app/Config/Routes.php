@@ -15,6 +15,6 @@ $routes->get('crearusuario', 'CrearUsuarios::index');
 $routes->get('editarUsuarios/(:num)', 'FormularioDeEditar::editar/$1');
 $routes->get('listaeditarusuarios', 'ListaEditarUsuarios::index');
 $routes->get('escritorio', 'Dashboard::index');
-
+$routes->get('editarUser/(:num)', 'FormularioDeEditar::editarUsuario/$1');
 
 
