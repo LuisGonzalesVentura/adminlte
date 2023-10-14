@@ -53,8 +53,8 @@ class Login extends BaseController
                exit();
         }
         else{
-       
-          return view("Dashboard/escritorio");
+          
+          return redirect()->to(base_url().'escritorio');
           }
 
     

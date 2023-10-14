@@ -78,9 +78,15 @@ class formularioDeEditar extends BaseController
                 $datos = ['foto' => $nombre];
                 $this->usuario->update($Idusuario, $datos);
             }
+
+            
+
         }
+        
         //header("Location:" . $_SERVER['HTTP_REFERER']);
 
         //exit();
+        return redirect()->to(base_url().'listaeditarusuarios');
+
     }
 }

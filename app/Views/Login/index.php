@@ -40,7 +40,7 @@
             </div>
           </div>
           <div class="input-group mb-3">
-            <input type="password" name="clave" id="clave" class="form-control" placeholder="Clave" required>
+            <input type="password" name="clave" id="clave" class="form-control" placeholder="Contraseña" required>
             <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-lock"></span>

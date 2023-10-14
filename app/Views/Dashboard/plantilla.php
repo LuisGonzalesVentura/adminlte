@@ -77,7 +77,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="<?php echo base_url();?>Login  " class="brand-link">
+    <a href="<?php echo base_url();?>escritorio  " class="brand-link">
     <img src="<?php echo base_url();?>dist/img/LogoDNI.png" alt="AdminLTE Logo" style="opacity: 0.9; max-width: 70px;">
       <span class="brand-text font-weight-light">DNI BOLIVIA</span>
     </a>

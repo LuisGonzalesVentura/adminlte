@@ -36,7 +36,7 @@
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form action="<?php echo 'http://localhost/adminlte/public/FormularioDeEditar/editarUsuario/'.$id?>" method='post' enctype="multipart/form-data">
+                    <form action="<?php echo base_url('FormularioDeEditar/editarUsuario/').$id?>" method='post' enctype="multipart/form-data">
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="exampleInputnombre">Nombre</label>
@@ -82,7 +82,9 @@
                         <!-- /.card-body -->
 
                         <div class="card-footer">
-                            <button type="submit" class="btn btn-primary">Editar</button>
+                        <a href="<?php echo base_url();?>/listaeditarusuarios"  class="nav-link">
+                            <button  type="submit" class="btn btn-primary">Editar</button>
+
                         </div>
                     </form>
                 </div>
