@@ -26,7 +26,7 @@ class formularioDeEditar extends BaseController
                 $datos['user'] = $usuario;
             }
         }
-        //session()->set($data); 
+        //session()->set($datos); 
         $data['user'] = $datos['user'];
         $data['titulo'] = "Formulario Editar";
         $data['id'] = "";

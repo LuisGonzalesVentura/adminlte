@@ -20,13 +20,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item" id="menuUsuarios">
-                <a href="<?php echo 'http://localhost/adminlte/public'?>/listaeditarusuarios"  class="nav-link">
+                <a href="<?php echo base_url();?>/listaeditarusuarios"  class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editar</p>
                 </a>
               </li>
               <li class="nav-item" id="crearUsuarios">
-                <a href="<?php echo 'http://localhost/adminlte/public'?>/crearusuario"  class="nav-link">
+                <a href="<?php echo base_url();?>/crearusuario"  class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Crear</p>
                 </a>
@@ -57,7 +57,16 @@
       <?=$this->endSection(); ?>
 
 
-      
+      <section class="content">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <img src="<?php echo ''?>/dist/img/LogoDNI.png" alt="Imagen" style="max-width: 100%; height: auto;">
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
     <?=$this->section('folder'); ?>
