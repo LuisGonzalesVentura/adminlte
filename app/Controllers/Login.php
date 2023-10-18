@@ -26,7 +26,6 @@ class Login extends BaseController
     {
        $this->usuario=new Usuario();
         $datos['usuarios']=$this->usuario->orderBy('Idusuario','ASC')->findAll();
-        session()->set($datos); 
 
         $user=null;
 
@@ -34,13 +33,13 @@ class Login extends BaseController
           if($usuario['usuario']==$_POST['emailUsuario']){
             
               if(password_verify($_POST['clave'], $usuario['clave'])){
-
+/* usar para el guardado en la base de datos de la contraseÃ±a
+            * $contrasena = "mi_contrasena";*/
                  
                $user=$usuario;
-               
+               break;
               }else
               {
-                echo "error usuario";
                 
               }
 
@@ -53,6 +52,7 @@ class Login extends BaseController
                exit();
         }
         else{
+          
           
           return redirect()->to(base_url().'escritorio');
           }

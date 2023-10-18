@@ -91,7 +91,6 @@
         </div>
         <div class="info">
         <a href="#" class="d-block" >
-         <?= session('user');?>
       </a>
         </div>
       </div>
