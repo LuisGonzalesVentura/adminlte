@@ -47,13 +47,31 @@
           </li>
 
            <li class="nav-item">
-            <a href="  <?php  echo  base_url();?>Login" class ="nav-link">
+            <a href="#" onclick="cerrarSesion();" class ="nav-link">
               <i class="fas fa-sign-out-alt text-danger"></i>
               <p>Salir</p>
              </a>
             </li>
       </nav>
-      <!-- /.sidebar-menu -->
+
+      <script type="text/javascript">
+  function cerrarSesion() {
+    swal.fire({
+      title: '¿Desea salir?',
+      text: 'La sesión terminará.',
+      icon: 'warning',
+      showCancelButton: true,
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Sí, Salir'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "<?php echo base_url('Login/cerrarSesion');?>";
+      }
+    });
+  }
+</script>
+
+
       <?=$this->endSection(); ?>
 
 

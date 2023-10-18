@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>DNI Bolivia</title>
+  <link rel="icon" type="image/png" href="LogoDNI.png" />
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -15,6 +17,11 @@
    <!-- jquery -->
  <script  type="text/javascript" src="<?php echo base_url();?>plugins/jquery/jquery.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+   <!-- Sweet alert -->
+   <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>plugins/sweetalert2/sweetalert2.min.css">
+<script type="text/javascript" src="<?php echo base_url(); ?>plugins/sweetalert2/sweetalert2.all.min.js"></script>
+
 
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
@@ -87,10 +94,12 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?php echo base_url();?>dist/img/sin_foto.png" class="img-circle elevation-2" alt="User Image">
+          <img src="<?= base_url();?>dist/img/sin_foto.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
         <a href="#" class="d-block" >
+        <p><?= session('usuarios'); ?></p>
+
       </a>
         </div>
       </div>
