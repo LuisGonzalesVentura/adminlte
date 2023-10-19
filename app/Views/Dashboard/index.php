@@ -19,13 +19,11 @@
           </div>
         </div>
       </div><!-- /.container-fluid -->
-
-
       <section class="content">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 text-center" style="margin-bottom: 100px;">
-                <img src="<?php echo ''?>dist/img/LogoDNI.png" alt="Imagen" style="max-width: 100%; height: auto;">
+                <img src="<?php echo ''?>/dist/img/LogoDNI.png" alt="Imagen" style="max-width: 100%; height: auto;">
                 
             </div>
         </div>

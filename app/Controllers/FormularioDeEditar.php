@@ -26,7 +26,7 @@ class formularioDeEditar extends BaseController
                 $datos['user'] = $usuario;
             }
         }
-        //session()->set($datos); 
+        //session()->set($data); 
         $data['user'] = $datos['user'];
         $data['titulo'] = "Formulario Editar";
         $data['id'] = "";
@@ -78,15 +78,7 @@ class formularioDeEditar extends BaseController
                 $datos = ['foto' => $nombre];
                 $this->usuario->update($Idusuario, $datos);
             }
-
-            
-
         }
-        
-        //header("Location:" . $_SERVER['HTTP_REFERER']);
-
-        //exit();
-        return redirect()->to(base_url().'listaeditarusuarios');
-
+        return $this->response->redirect("http://localhost/adminlte/public/listaeditarusuarios");
     }
 }

@@ -10,10 +10,5 @@ class Usuarios extends BaseController
     {
         $data['titulo']="Modulo de Usuarios";
         return view("Usuarios/index", $data);
-
-        
     }
-
-
-    
 }

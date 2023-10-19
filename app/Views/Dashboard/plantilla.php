@@ -3,24 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>DNI Bolivia</title>
-  <link rel="icon" type="image/png" href="LogoDNI.png" />
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?php echo base_url();?>dist/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="http://localhost/adminlte/assets/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo base_url();?>dist/css/adminlte.min.css">
-
-   <!-- jquery -->
- <script  type="text/javascript" src="<?php echo base_url();?>plugins/jquery/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://localhost/adminlte/public/dist/css/adminlte.min.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
-
-   <!-- Sweet alert -->
-   <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>plugins/sweetalert2/sweetalert2.min.css">
-<script type="text/javascript" src="<?php echo base_url(); ?>plugins/sweetalert2/sweetalert2.all.min.js"></script>
 
 
 <body class="hold-transition sidebar-mini">
@@ -84,8 +75,8 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="<?php echo base_url();?>escritorio  " class="brand-link">
-    <img src="<?php echo base_url();?>dist/img/LogoDNI.png" alt="AdminLTE Logo" style="opacity: 0.9; max-width: 70px;">
+    <a href="../../index3.html" class="brand-link">
+    <img src="http://localhost/adminlte/public/dist/img/LogoDNI.png" alt="AdminLTE Logo" style="opacity: 0.9; max-width: 70px;">
       <span class="brand-text font-weight-light">DNI BOLIVIA</span>
     </a>
 
@@ -94,12 +85,11 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?= base_url();?>dist/img/sin_foto.png" class="img-circle elevation-2" alt="User Image">
+          <img src="http://localhost/adminlte/public/dist/img/sin_foto.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
         <a href="#" class="d-block" >
-        <p><?= session('usuarios'); ?></p>
-
+         <?= session('usuario');?>
       </a>
         </div>
       </div>
@@ -135,12 +125,12 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="<?php echo base_url();?>plugins/jquery/jquery.min.js"></script>
+<script src="http://localhost/adminlte/assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="<?php echo base_url();?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="http://localhost/adminlte/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="<?php echo base_url();?>dist/js/adminlte.min.js"></script>
+<script src="http://localhost/adminlte/public/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="<?php echo base_url();?>dist/js/demo.js"></script>
+<script src="http://localhost/adminlte/public/dist/js/demo.js"></script>
 </body>
 </html>

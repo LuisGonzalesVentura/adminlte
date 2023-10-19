@@ -20,7 +20,7 @@ class CrearUsuarios extends BaseController
        
        $nombre="";
        if($imagen=$this->request->getFile('fotoUsuario')){
-        
+       
        $nombre=$imagen->getRandomName();
         $imagen->move("../public/uploads/".$nombre);
        }
@@ -33,7 +33,7 @@ class CrearUsuarios extends BaseController
        'foto' =>$nombre,
        'numero' => isset($_POST['numero']) ? $_POST['numero'] : '',
        'fecha_creacion' =>date('Y-m-d')
-                    ];
+    ];
 
        $this->usuario->protect(false);
        $this->usuario->insert($datos);

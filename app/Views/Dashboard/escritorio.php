@@ -20,25 +20,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item" id="menuUsuarios">
-                <a href="<?php echo base_url();?>/listaeditarusuarios"  class="nav-link">
+                <a href="<?php echo 'http://localhost/adminlte/public'?>/listaeditarusuarios"  class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editar</p>
                 </a>
               </li>
               <li class="nav-item" id="crearUsuarios">
-                <a href="<?php echo base_url();?>/crearusuario"  class="nav-link">
+                <a href="<?php echo 'http://localhost/adminlte/public'?>/crearusuario"  class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Crear</p>
                 </a>
               </li>
               <li class="nav-item" id="eliminarUsuarios">
-                <a href="<?php echo base_url('EliminarUsuarios/eliminarusuario');?>" class="nav-link">
+                <a href="<?php echo 'http://localhost/adminlte/public'?>/listaborrarusuarios" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Eliminar</p>
                 </a>
               </li>
               <li class="nav-item"id="desactivarUsuarios">
-                <a href="<?php echo base_url('DesactivarUsuario/desactivarusuario');?>" class="nav-link">
+                <a href="<?php echo 'http://localhost/adminlte/public'?>/listadesactivarusuarios" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Desactivar</p>
                 </a>
@@ -47,44 +47,17 @@
           </li>
 
            <li class="nav-item">
-            <a href="#" onclick="cerrarSesion();" class ="nav-link">
+            <a href="  <?php  echo  base_url();?>Login" class ="nav-link">
               <i class="fas fa-sign-out-alt text-danger"></i>
               <p>Salir</p>
              </a>
             </li>
       </nav>
-
-      <script type="text/javascript">
-  function cerrarSesion() {
-    swal.fire({
-      title: '¿Desea salir?',
-      text: 'La sesión terminará.',
-      icon: 'warning',
-      showCancelButton: true,
-      cancelButtonColor: '#d33',
-      confirmButtonText: 'Sí, Salir'
-    }).then((result) => {
-      if (result.isConfirmed) {
-        window.location.href = "<?php echo base_url('Login/cerrarSesion');?>";
-      }
-    });
-  }
-</script>
-
-
+      <!-- /.sidebar-menu -->
       <?=$this->endSection(); ?>
 
 
-      <section class="content">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 text-center">
-                <img src="<?php echo ''?>/dist/img/LogoDNI.png" alt="Imagen" style="max-width: 100%; height: auto;">
-            </div>
-        </div>
-    </div>
-</section>
-
+      
 
 
     <?=$this->section('folder'); ?>

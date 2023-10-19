@@ -32,11 +32,11 @@
                 <!-- general form elements -->
                 <div class="card card-primary">
                     <div class="card-header">
-                        <h3 class="card-title">Usuario </h3>
+                        <h3 class="card-title">Usuario Nuevo</h3>
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form action="<?php echo base_url('FormularioDeEditar/editarUsuario/').$id?>" method='post' enctype="multipart/form-data">
+                    <form action="<?php echo 'http://localhost/adminlte/public/FormularioDeEditar/editarUsuario/'.$id?>" method='post' enctype="multipart/form-data">
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="exampleInputnombre">Nombre</label>
@@ -75,16 +75,14 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Numero</label>
-                                <input  class="form-control" id="exampleInputPassword1" placeholder="Numero" value="<?php echo $user['numero']?>">
+                                <input name="numero"  class="form-control" id="exampleInputPassword1" placeholder="Numero" value="<?php echo $user['numero']?>">
                             </div>
                             
                         </div>
                         <!-- /.card-body -->
 
                         <div class="card-footer">
-                        <a href="<?php echo base_url();?>/listaeditarusuarios"  class="nav-link">
-                            <button  type="submit" class="btn btn-primary">Editar</button>
-
+                            <button type="submit" class="btn btn-primary">Editar</button>
                         </div>
                     </form>
                 </div>

@@ -16,5 +16,7 @@ $routes->get('editarUsuarios/(:num)', 'FormularioDeEditar::editar/$1');
 $routes->get('listaeditarusuarios', 'ListaEditarUsuarios::index');
 $routes->get('escritorio', 'Dashboard::index');
 $routes->get('editarUser/(:num)', 'FormularioDeEditar::editarUsuario/$1');
+$routes->get('listaborrarusuarios', 'ListaBorrarUsuarios::index');
+$routes->get('listadesactivarusuarios','ListaDesactivarUsuarios::index');
 
 
