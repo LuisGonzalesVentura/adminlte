@@ -26,6 +26,6 @@ class listadesactivarusuarios extends BaseController
         }
         $this->usuario->protect(false);
         $this->usuario->update($IdUsuario, $datos);
-        return $this->response->redirect("http://localhost/adminlte/public/listadesactivarusuarios");    
+        return redirect()->to(base_url().'Listadesactivarusuarios');
     }
 }

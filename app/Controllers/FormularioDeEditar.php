@@ -79,6 +79,6 @@ class formularioDeEditar extends BaseController
                 $this->usuario->update($Idusuario, $datos);
             }
         }
-        return $this->response->redirect("http://localhost/adminlte/public/listaeditarusuarios");
+        return redirect()->to(base_url().'listaeditarusuarios');
     }
 }

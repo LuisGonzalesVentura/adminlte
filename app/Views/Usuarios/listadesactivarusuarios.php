@@ -89,6 +89,6 @@
 
   <script type="text/javascript">
     $("#menuAdministracion").addClass("menu-open");
-    $("#menuUsuarios").addClass("active");
+    $("#desactivarUsuarios").addClass("active");
   </script>
   <?= $this->endSection(); ?>

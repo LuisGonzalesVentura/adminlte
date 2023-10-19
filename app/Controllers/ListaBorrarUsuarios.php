@@ -28,6 +28,7 @@ class listaborrarusuarios extends BaseController
                }
                 }
         $this->usuario->delete($id);
-        return $this->response->redirect("http://localhost/adminlte/public/listaborrarusuarios");
+        return redirect()->to(base_url().'listaborrarusuarios');
+
     }
 }

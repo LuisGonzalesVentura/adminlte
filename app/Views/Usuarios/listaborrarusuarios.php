@@ -49,28 +49,38 @@
                   <td><?php echo $usuario['usuario']; ?></td>
                   <td><?php echo $usuario['nombre']; ?></td>
                   <td><?php echo $usuario['apellido']; ?></td>
-                  <td><a href="<?php echo 'ListaBorrarUsuarios/borrar/' . $usuario['Idusuario'] ?>" class="btn btn-warning" type="button">borrar</a></td>
+                  <td><a href="#" onclick="confirmarborrar();" class="btn btn-warning" type="button">borrar</a></td>
                 </tr>
-                <script>
-                  const enlaceEliminar = document.querySelector('a[href="<?php echo 'ListaBorrarUsuarios/borrar/' . $usuario['Idusuario'] ?>"]');
-                  enlaceEliminar.addEventListener('click', function(event) {
-                    if (!confirm('¿Estás seguro de que deseas borrar este elemento?')) {
-                      event.preventDefault(); // Evita que el enlace se siga si el usuario hace clic en "Cancelar"
-                    }
-                  });
-                </script>
+                
               <?php endforeach; ?>
             </tbody>
           </table>
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+  function confirmarborrar() {
+    swal.fire({
+      title: '¿Desea eliminar?',
+      text: 'Se Eliminara al Usuario.',
+      icon: 'warning',
+      showCancelButton: true,
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Sí, Eliminar'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "<?php echo 'ListaBorrarUsuarios/borrar/' . $usuario['Idusuario'] ?>";
+      }
+    });
+  }
+</script>
   </section>
+
 
   <!-- /.content -->
 
   <script type="text/javascript">
     $("#menuAdministracion").addClass("menu-open");
-    $("#menuUsuarios").addClass("active");
+    $("#eliminarUsuarios").addClass("active");
   </script>
   <?= $this->endSection(); ?>

@@ -53,13 +53,26 @@ class Login extends BaseController
                exit();
         }
         else{
-       
-          return view("Dashboard/escritorio");
+          $data=[
+            "usuarios" => $user['nombre'] . ' ' . $user['apellido'],
+            "foto" => $user['foto']
+  
+          ];
+            session()->set($data);
+            
+            return redirect()->to(base_url().'escritorio');
           }
 
     
 
   }
+
+  public function cerrarSesion()
+    {
+      session()->destroy();
+      return redirect()->to(base_url().'Login');
+    }
+    
 
     
     
