@@ -13,36 +13,47 @@ class CrearUsuarios extends BaseController
         return view("Usuarios/crearusuario",$data);
     }
     public function agregar_usuario()
-    {
-       $this->usuario=new Usuario();
-       $encrypter= \Config\Services::encrypter();
-       $clave = bin2hex($encrypter->encrypt(isset($_POST['contrasena']) ? $_POST['contrasena'] : ''));
-       
-       $nombre="";
-       if($imagen=$this->request->getFile('fotoUsuario')){
-        
-       $nombre=$imagen->getRandomName();
-        $imagen->move("../public/uploads/".$nombre);
-       }
-       $datos=['nombre' => isset($_POST['nombre']) ? $_POST['nombre'] : '',
-       'apellido' => isset($_POST['apellido']) ? $_POST['apellido'] : '',
-       'email' => isset($_POST['email']) ? $_POST['email'] : '',
-       'usuario' => isset($_POST['usuario']) ? $_POST['usuario'] : '',
-       'clave' =>$clave ,
-       'fecha_nacimiento' => isset($_POST['fecha_nacimiento']) ? $_POST['fecha_nacimiento'] : '',
-       'foto' =>$nombre,
-       'numero' => isset($_POST['numero']) ? $_POST['numero'] : '',
-       'fecha_creacion' =>date('Y-m-d')
-                    ];
+{
+    $this->usuario = new Usuario();
 
-       $this->usuario->protect(false);
-       $this->usuario->insert($datos);
-       header("Location:".$_SERVER['HTTP_REFERER']);
+    // Obtén la contraseña proporcionada por el usuario
+    $plainPassword = $this->request->getPost('contrasena');
 
-       exit();
+    // Genera un hash de la contraseña usando password_hash
+    $hashedPassword = password_hash($plainPassword, PASSWORD_BCRYPT);
 
-    
+    // Verifica si se ha subido una imagen
+    $imagen = $this->request->getFile('fotoUsuario');
+    $nombre = "";
+    if ($imagen->isValid() && !$imagen->hasMoved()) {
+        // Genera un nombre de archivo único basado en la marca de tiempo y la extensión original
+        $nombre = md5(uniqid(rand(), true)) . '.' . $imagen->getClientExtension();
 
-  }
+        // Mueve la imagen al directorio de uploads
+        $imagen->move("../public/uploads/", $nombre);}
+    // Construye el array de datos para insertar en la base de datos
+    $datos = [
+        'nombre' => $this->request->getPost('nombre'),
+        'apellido' => $this->request->getPost('apellido'),
+        'email' => $this->request->getPost('email'),
+        'usuario' => $this->request->getPost('usuario'),
+        'clave' => $hashedPassword, // Almacena el hash de la contraseña
+        'fecha_nacimiento' => $this->request->getPost('fecha_nacimiento'),
+        'foto' => $nombre,
+        'numero' => $this->request->getPost('numero'),
+        'fecha_creacion' => date('Y-m-d')
+    ];
+
+    // Desactiva la protección de campos, si es necesario
+    $this->usuario->protect(false);
+
+    // Inserta los datos en la base de datos
+    $this->usuario->insert($datos);
+
+    // Redirige de vuelta a la página anterior
+    header("Location:" . $_SERVER['HTTP_REFERER']);
+    exit();
+}
+
 
 }

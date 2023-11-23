@@ -5,6 +5,7 @@
 
 <?= $this->section('menu'); ?>
 <!-- Sidebar Menu -->
+  <link rel="icon" type="image/png" href="LogoDNI.png" />
 
 <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
@@ -41,6 +42,40 @@
                 <a href="<?php echo base_url()?>/listadesactivarusuarios" class="nav-link" id="desactivarUsuarios">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Desactivar</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"id="menureporte">
+            <a href="#" class="nav-link" >
+            <i class="ri-folder-chart-2-fill"></i>              <p>
+              Reporte
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item" >
+              <a href="<?php echo base_url("Reporte/index"); ?>" class="nav-link" id="reportelista">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Lista</p>
+                </a>
+              </li>
+              <li class="nav-item" >
+                <a href="<?php echo base_url()?>/crearusuario"  class="nav-link" id="crearUsuarios">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Crear Reporte </p>
+                </a>
+              </li>
+              <li class="nav-item" >
+                <a href="<?php echo base_url()?>/listaborrarusuarios" class="nav-link"id="eliminarUsuarios">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Editar Reporte</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo base_url("Reporte/subirpdf"); ?>" class="nav-link" id="PDFs">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Subir PDFs</p>
                 </a>
               </li>
             </ul>

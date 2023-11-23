@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">    <!-- Forma global -->
+
   <title>DNI Bolivia</title>
-  <link rel="icon" type="image/png" href="LogoDNI.png" />
+  <link rel="icon" type="image/png" href="<?php echo base_url('LogoDNI.png'); ?>" />  
 
 
   <!-- Google Font: Source Sans Pro -->
@@ -76,7 +77,7 @@
         <a href="#" class="d-block" >
         <p><?= session('usuarios'); ?></p>
 
-      </a>
+      </a>  
         </div>
       </div>
 

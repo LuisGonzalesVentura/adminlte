@@ -3,6 +3,7 @@
 
 <?=$this->section('contenido'); ?>
 
+<link rel="icon" type="image/png" href="LogoDNI.png" />
 
        <!-- Content Header (Page header) -->
     <section class="content-header">

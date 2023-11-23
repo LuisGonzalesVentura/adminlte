@@ -15,6 +15,7 @@ class formularioDeEditar extends BaseController
         $data['titulo']="Formulario Editar";
         return view("Usuarios/formulariodeeditar", $data);
     }*/
+    // prueba
     public function editar($id = null)
     {
 
@@ -31,54 +32,62 @@ class formularioDeEditar extends BaseController
         $data['titulo'] = "Formulario Editar";
         $data['id'] = "";
         $data['id'] = $id;
-
+        
         return view("Usuarios/formulariodeeditar", $data);
     }
     public function editarUsuario($Idusuario = null)
-    {
+{
+    $this->usuario = new Usuario();
 
-        $this->usuario = new Usuario();
+    $datos = [
+        'nombre' => $this->request->getPost('nombre'),
+        'apellido' => $this->request->getPost('apellido'),
+        'email' => $this->request->getPost('email'),
+        'usuario' => $this->request->getPost('usuario'),
+        'fecha_nacimiento' => $this->request->getPost('fecha_nacimiento'),
+        'numero' => $this->request->getPost('numero'),
+        'fecha_modificacion' => date('Y-m-d'),
+    ];
 
+    $nuevaContrasena = $this->request->getPost('contrasena');
+    if (!empty($nuevaContrasena)) {
+        $hashedPassword = password_hash($nuevaContrasena, PASSWORD_BCRYPT);
+        $datos['clave'] = $hashedPassword;
+    }
 
-        $encrypter = \Config\Services::encrypter();
-        $clave = bin2hex($encrypter->encrypt(isset($_POST['contrasena']) ? $_POST['contrasena'] : ''));
-        //$imagen = $this->request->getFile('fotoUsuario');
-        // $nombre = $imagen->getRandomName();
-        //$imagen->move("../public/uploads/" . $nombre);
-        $datos = [
-            'nombre' => isset($_POST['nombre']) ? $_POST['nombre'] : '',
-            'apellido' => isset($_POST['apellido']) ? $_POST['apellido'] : '',
-            'email' => isset($_POST['email']) ? $_POST['email'] : '',
-            'usuario' => isset($_POST['usuario']) ? $_POST['usuario'] : '',
-            'clave' => $clave,
-            'fecha_nacimiento' => isset($_POST['fecha_nacimiento']) ? $_POST['fecha_nacimiento'] : '',
-            // 'foto' => $nombre,
-            'numero' => isset($_POST['numero']) ? $_POST['numero'] : '',
-            'fecha_modificacion' => date('Y-m-d')
-        ];
-        $this->usuario->protect(false);
+    $this->usuario->protect(false);
 
-        $this->usuario->update($Idusuario, $datos);
-        $validar = $this->validate(['fotoUsuario' => [
+    $this->usuario->update($Idusuario, $datos);
+
+    $validar = $this->validate([
+        'fotoUsuario' => [
             'uploaded[fotoUsuario]',
             'mime_in[fotoUsuario,image/jpg,image/png,image/jpeg]',
             'max_size[fotoUsuario,1024]'
-        ]]);
-        if ($validar) {
-            if ($imagen = $this->request->getFile('fotoUsuario')) {
-                echo "cargando imagen";
-                $datosImagen = $this->usuario->where('Idusuario', $Idusuario)->first();
-                if($datosImagen['foto']!=''){
-                $ruta = ("../public/uploads/" . $datosImagen['foto']);
-                
+        ]
+    ]);
+
+    if ($validar) {
+        $imagen = $this->request->getFile('fotoUsuario');
+        $datosImagen = $this->usuario->where('Idusuario', $Idusuario)->first();
+
+        if ($datosImagen['foto'] != '') {
+            $ruta = "../public/uploads/" . $datosImagen['foto'];
+            // Verificamos que sea un archivo antes de intentar eliminarlo
+            if (is_file($ruta)) {
                 unlink($ruta);
-                }
-                $nombre = $imagen->getRandomName();
-                $imagen->move("../public/uploads/" . $nombre);
-                $datos = ['foto' => $nombre];
-                $this->usuario->update($Idusuario, $datos);
             }
         }
-        return redirect()->to(base_url().'listaeditarusuarios');
+
+        $nombre = $imagen->getName();
+        $imagen->move("../public/uploads/", $nombre);
+
+        $datos = ['foto' => $nombre];
+        $this->usuario->update($Idusuario, $datos);
     }
+
+    return redirect()->to(base_url().'listaeditarusuarios');
+}
+
+
 }
