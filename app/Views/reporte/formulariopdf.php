@@ -34,21 +34,49 @@
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form action="<?= base_url('Reporte/subirPDF/' . $id) ?>" method="post" enctype="multipart/form-data">
+                 <!-- ... -->
+
+<!-- ... -->
+
+<form action="<?= base_url('Reporte/subirPDF/' . $id) ?>" method="post" enctype="multipart/form-data">
     <div class="card-body">
         <?php if ($report): ?>
-            <h2>Subir carnet escaneado para <?= $report['nombre'] . ' ' . $report['apellido']; ?></h2>
+            <h2>Subir archivos para <?= $report['nombre'] . ' ' . $report['apellido']; ?></h2>
             <input type="hidden" name="id" value="<?= $report['Idreporte']; ?>">
+            
             <div class="form-group">
-                <label for="pdfUsuario">Seleccionar archivo PDF</label>
-                <input name="pdfUsuario" type="file" class="form-control" id="pdfUsuario" accept=".pdf">
+                <label for="pdfCarnet">Seleccionar archivo PDF Carnet Escaneado</label>
+                <input name="pdfCarnet" type="file" class="form-control" id="pdfCarnet" accept=".pdf">
             </div>
-            <button type="submit" class="btn btn-primary">Subir PDF</button>
+            <div class="form-group">
+                <label for="pdfIngresoCaja">Seleccionar archivo PDF Ingreso Caja</label>
+                <input name="pdfIngresoCaja" type="file" class="form-control" id="pdfIngresoCaja" accept=".pdf">
+            </div>
+            <div class="form-group">
+                <label for="pdfContrato1">Seleccionar archivo PDF Contrato1</label>
+                <input name="pdfContrato1" type="file" class="form-control" id="pdfContrato1" accept=".pdf">
+            </div>
+            <div class="form-group">
+                <label for="pdfFiniquito1">Seleccionar archivo PDF Finiquito1</label>
+                <input name="pdfFiniquito1" type="file" class="form-control" id="pdfFiniquito1" accept=".pdf">
+            </div>
+            <div class="form-group">
+                <label for="pdfRetiroCaja">Seleccionar archivo PDF Retiro Caja</label>
+                <input name="pdfRetiroCaja" type="file" class="form-control" id="pdfRetiroCaja" accept=".pdf">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Subir PDFs</button>
         <?php else: ?>
             <p>No se encontró el reporte seleccionado.</p>
         <?php endif; ?>
     </div>
 </form>
+
+<!-- ... -->
+
+
+<!-- ... -->
+
 
                 </div>
                 <!-- /.card -->
@@ -60,8 +88,8 @@
 <!-- /.content -->
 
 <script type="text/javascript">
-    $("#menuAdministracion").addClass("menu-open");
-    $("#menuUsuarios").addClass("active");
+   $("#menureporte").addClass("menu-open");
+    $("#PDFs").addClass("active");
 </script>
 
 <?=$this->endSection(); ?>

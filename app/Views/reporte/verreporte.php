@@ -7,16 +7,12 @@
 
 <!-- Content Header (Page header) -->
 <section class="content-header">
-
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-            <h1><?= $titulo; ?></h1>
-
-                <!-- Add content header content if needed -->
+                <h1><?= $titulo; ?></h1>
             </div>
             <div class="col-sm-6">
-                
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item active">Reportes</li>
@@ -42,32 +38,34 @@
                                 <!-- Add table header content if needed -->
                             </thead>
                             <tbody>
-    <?php if ($report): ?>
-    
-    <p><label>ID:  </label> <?= $report['Idreporte']; ?></p>
-    <p><label>Apellido:  </label>  <?= $report['apellido']; ?></p>
-    <p><label>Nombre:  </label>  <?= $report['nombre']; ?></p>
-    <p><label>Carnet:  </label>  <?= $report['Ci']; ?></p>
-    <p><label>Nua:  </label>  <?= $report['nua']; ?></p>
-    <p><label>Fecha Nacimiento:  </label>  <?= $report['fechanacimiento']; ?></p>
-    <p><label>Fecha Ingreso:  </label>  <?= $report['fechaingreso']; ?></p>
-    <p><label>Fecha Retiro:  </label> <?= $report['fechafin']; ?></p>
+                                <?php if ($reporte): ?>
+                                    <p><label>ID:  </label> <?= $reporte['Idreporte']; ?></p>
+                                    <p><label>Apellido:  </label>  <?= $reporte['apellido']; ?></p>
+                                    <p><label>Nombre:  </label>  <?= $reporte['nombre']; ?></p>
+                                    <p><label>Carnet:  </label>  <?= $reporte['Ci']; ?></p>
+                                    <p><label>Nua:  </label>  <?= $reporte['nua']; ?></p>
+                                    <p><label>Fecha Nacimiento:  </label>  <?= $reporte['fechanacimiento']; ?></p>
+                                    <p><label>Fecha Ingreso:  </label>  <?= $reporte['fechaingreso']; ?></p>
+                                    <p><label>Fecha Retiro:  </label> <?= $reporte['fechafin']; ?></p>
+                                    
+                    <td>
+                    <a href="<?= base_url('Reporte/documentos/' . $reporte['Idreporte']) ?>" class="btn btn-success" type="button">Documentos</a>
+                                       <?= anchor('Reporte/index', 'Regresar', ['class' => 'btn btn-primary']); ?>
+                    </td>   
+                                <?php else: ?>
+                                    
+                                    <p>No se encontró el reporte seleccionado.</p>
+                                <?php endif; ?>
 
-    
-
-    <!-- Agrega más detalles según sea necesario -->
-   <?php else: ?>
-    <p>No se encontró el reporte seleccionado.</p>
-   <?php endif; ?>
-   
-    </tbody>
+                                
+                            </tbody>
                         </table>
                     </div>
                     <!-- /.card-body -->
 
                     <div class="card-footer">
-                        <?= anchor('Reporte/documentos/' . $report['Idreporte'], 'Documentos', ['class' => 'btn btn-primary']); ?>
-                        <?= anchor('Reporte/index', 'Regresar', ['class' => 'btn btn-primary']); ?>
+                    
+                        <!-- Add footer content if needed -->
                     </div>
                 </div>
             </div>

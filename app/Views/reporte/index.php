@@ -79,7 +79,7 @@
 
                     <td>
                     <a href="<?php echo 'documentos/'.$reporte['Idreporte']?>" class="btn btn-success" type="button">Documentos</a>
-            </td>
+                    </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>

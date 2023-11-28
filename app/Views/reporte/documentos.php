@@ -41,36 +41,47 @@
                                 <!-- Add table header content if needed -->
                             </thead>
                             <tbody>
-                            <tr>
-                             <td><label>Carnet de Identidad  </label></td>
-                             <td>
-                             <button class="btn btn-primary" onclick="verDocumento('Carnetescaneado')">Ver PDF</button>
-                          </td>
-                             </tr>
-                                <tr>
-                                    <td><label>Ingreso a caja</label></td>
-                                    <td>
-                                        <button class="btn btn-primary" onclick="verDocumento('ingresoCaja')">Ver PDF</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><label>Contratos</label></td>
-                                    <td>
-                                        <button class="btn btn-primary" onclick="verDocumento('contratos')">Ver PDF</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><label>Finiquitos</label></td>
-                                    <td>
-                                        <button class="btn btn-primary" onclick="verDocumento('finiquitos')">Ver PDF</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><label>Retiro caja</label></td>
-                                    <td>
-                                        <button class="btn btn-primary" onclick="verDocumento('retiroCaja')">Ver PDF</button>
-                                    </td>
-                                </tr>
+                            <!-- En la vista documentos.php -->
+                            <?php foreach ($reportes as $reporte): ?>
+    <tr>
+        <td><label>Carnet de Identidad</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="carnetescaneado" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+        </td>
+        
+    </tr>
+    <tr>
+        <td><label>Ingreso caja PDF</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="ingresocaja" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+        </td>
+        
+    </tr>
+    <tr>
+        <td><label>Contrato 1</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="contrato1" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+        </td>
+        
+    </tr>
+    <tr>
+        <td><label>Finiquito 1</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="finiquito1" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+        </td>
+        
+    </tr>
+    <tr>
+        <td><label>Retiro caja</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="retirocaja" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+        </td>
+        
+    </tr>
+    <!-- Otros tipos de documentos ... -->
+<?php endforeach; ?>
+
+                               
                                 <!-- Add more rows for additional details if needed -->
                             </tbody>
                         </table>
@@ -86,67 +97,69 @@
     </div>
 </section>
 <script type="text/javascript">
-    $("#menureporte").addClass("menu-open");
+
+
+$("#menureporte").addClass("menu-open");
     $("#reportelista").addClass("active");
 
-    $(document).ready(function () {
-        $(".verDocumentoBtn").on("click", function () {
-            var documentType = $(this).data("document-type");
-            var reportId = $(this).data("report-id");
-            verDocumento(documentType, reportId);
-        });
+
+ $(document).ready(function () {
+    $(".verDocumentoBtn").on("click", function () {
+        var documentType = $(this).data("document-type");
+        var reportId = $(this).data("report-id");
+        verDocumento(documentType, reportId);
     });
+});
 
-    function verDocumento(documentType, reportId) {
-    $.ajax({
-        type: "GET",
-        url: "<?php echo base_url('Reporte/getDocumento'); ?>",
-        data: { type: documentType, id: reportId },
-        dataType: "json",
-        success: function (data) {
-            if (data.success) {
-                // Crear un Blob a partir del contenido base64
-                var blob = b64toBlob(data.pdfData, 'application/pdf');
-                var blobUrl = URL.createObjectURL(blob);
+function verDocumento(documentType, reportId) {
+    // Verificar si reportId es null o no
+    if (reportId !== null && reportId !== 'null') {
+        $.ajax({
+            type: "GET",
+            url: "<?php echo base_url('Reporte/getDocumento'); ?>",
+            data: { type: documentType, id: reportId },
+            dataType: "json",
+            success: function (data) {
+                if (data.success) {
+                    // Crear un Blob a partir del contenido base64
+                    var blob = b64toBlob(data.pdfData, 'application/pdf');
+                    var blobUrl = URL.createObjectURL(blob);
 
-                // Abrir la ventana nueva utilizando window.location.href
-                window.location.href = blobUrl;
-            } else {
+                    // Abrir la ventana nueva utilizando window.open
+                    window.open(blobUrl, '_blank');
+                } else {
+                    alert("Error fetching PDF: " + data.message);
+                }
+            },
+            error: function () {
                 alert("Error fetching PDF");
             }
-        },
-        error: function () {
-            alert("Error fetching PDF");
-        }
-    });
+        });
+    } else {
+        alert("Report ID is not available.");
+    }
 }
 
+function b64toBlob(b64Data, contentType = '', sliceSize = 512) {
+    const byteCharacters = atob(b64Data);
+    const byteArrays = [];
 
-// Función para convertir base64 a Blob
-function b64toBlob(b64Data, contentType, sliceSize) {
-    contentType = contentType || '';
-    sliceSize = sliceSize || 512;
+    for (let offset = 0; offset < byteCharacters.length; offset += sliceSize) {
+        const slice = byteCharacters.slice(offset, offset + sliceSize);
 
-    var byteCharacters = atob(b64Data);
-    var byteArrays = [];
-
-    for (var offset = 0; offset < byteCharacters.length; offset += sliceSize) {
-        var slice = byteCharacters.slice(offset, offset + sliceSize);
-
-        var byteNumbers = new Array(slice.length);
-        for (var i = 0; i < slice.length; i++) {
+        const byteNumbers = new Array(slice.length);
+        for (let i = 0; i < slice.length; i++) {
             byteNumbers[i] = slice.charCodeAt(i);
         }
 
-        var byteArray = new Uint8Array(byteNumbers);
+        const byteArray = new Uint8Array(byteNumbers);
         byteArrays.push(byteArray);
     }
 
-    return new Blob(byteArrays, { type: contentType });
+    const blob = new Blob(byteArrays, { type: contentType });
+    return blob;
 }
-
 </script>
-
 
 
 <?= $this->endSection(); ?>
