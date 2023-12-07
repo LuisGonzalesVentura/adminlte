@@ -41,25 +41,25 @@
                 <th>Acciones</th>
               </tr>
             </thead>
-            <tbody>
-              <?php foreach ($usuarios as $usuario) : ?>
-                <tr>
-                  <td><?php echo $usuario['Idusuario']; ?></td>
-                  <td><?php echo $usuario['email']; ?></td>
-                  <td><?php echo $usuario['usuario']; ?></td>
-                  <td><?php echo $usuario['nombre']; ?></td>
-                  <td><?php echo $usuario['apellido']; ?></td>
-                  <td><a href="#" onclick="confirmarborrar();" class="btn btn-warning" type="button">borrar</a></td>
-                </tr>
-                
-              <?php endforeach; ?>
-            </tbody>
+           
+<tbody>
+  <?php foreach ($usuarios as $usuario) : ?>
+    <tr>
+      <td><?php echo $usuario['Idusuario']; ?></td>
+      <td><?php echo $usuario['email']; ?></td>
+      <td><?php echo $usuario['usuario']; ?></td>
+      <td><?php echo $usuario['nombre']; ?></td>
+      <td><?php echo $usuario['apellido']; ?></td>
+      <td><a href="#" onclick="confirmarborrar(<?php echo $usuario['Idusuario']; ?>);" class="btn btn-warning" type="button">borrar</a></td>
+    </tr>
+  <?php endforeach; ?>
+</tbody>
           </table>
         </div>
       </div>
     </div>
     <script type="text/javascript">
-  function confirmarborrar() {
+  function confirmarborrar(idUsuario) {
     swal.fire({
       title: '¿Desea eliminar?',
       text: 'Se Eliminara al Usuario.',
@@ -69,7 +69,7 @@
       confirmButtonText: 'Sí, Eliminar'
     }).then((result) => {
       if (result.isConfirmed) {
-        window.location.href = "<?php echo 'ListaBorrarUsuarios/borrar/' . $usuario['Idusuario'] ?>";
+        window.location.href = "<?php echo base_url('listaborrarusuarios/borrar/'); ?>" + idUsuario;
       }
     });
   }

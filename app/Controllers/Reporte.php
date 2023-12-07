@@ -5,6 +5,14 @@ use App\Models\Reportes;
 class Reporte extends BaseController
 {
 
+    protected $reportesModel;
+
+    public function __construct()
+    {
+        // Carga el modelo en el constructor
+        $this->reportesModel = new Reportes();
+    }
+
     public function index()
     {
         
@@ -37,55 +45,55 @@ class Reporte extends BaseController
 
    
     
-    public function documentos()
+    public function documentos($id)
     {
         $model = new Reportes();
-        $data['reportes'] = $model->orderBy('Idreporte', 'ASC')->findAll();  // Asegúrate de que estás recuperando los reportes de alguna manera
+        $data['reportes'] = $model->where('Idreporte', $id)->orderBy('Idreporte', 'ASC')->findAll();
         $data['titulo'] = "documentos";
         return view("reporte/documentos", $data);
     }
-    public function getDocumento()
-    {
-        try {
-            $documentType = $this->request->getVar('type');
-            $id = $this->request->getVar('id');
-    
-            // Validar y sanear datos de entrada
-            $documentType = filter_var($documentType, FILTER_SANITIZE_STRING);
-            $id = filter_var($id, FILTER_VALIDATE_INT);
-    
-            if ($id === false || $id === null) {
-                throw new InvalidArgumentException('Invalid report ID');
-            }
-    
-            $model = new Reportes();
-            $report = $model->find($id);
-    
-            if ($report) {
-                log_message('info', 'Report Array: ' . print_r($report, true));
-                log_message('info', 'Document Type: ' . $documentType);
-    
-                if (array_key_exists($documentType, $report)) {
-                    $pdfName = $report[$documentType];
-    
-                    // Leer el contenido del PDF
-                    $pdfContent = file_get_contents(ROOTPATH . 'public/PDFs/' . $pdfName);
-    
-                    // Devolver el contenido del PDF como base64
-                    echo json_encode(['success' => true, 'pdfData' => base64_encode($pdfContent), 'reportId' => $report['Idreporte']]);
-                } else {
-                    echo json_encode(['success' => false, 'message' => 'Document type not found for this report']);
+        public function getDocumento()
+        {
+            try {
+                $documentType = $this->request->getVar('type');
+                $id = $this->request->getVar('id');
+        
+                // Validar y sanear datos de entrada
+                $documentType = filter_var($documentType, FILTER_SANITIZE_STRING);
+                $id = filter_var($id, FILTER_VALIDATE_INT);
+        
+                if ($id === false || $id === null) {
+                    throw new InvalidArgumentException('Invalid report ID');
                 }
-            } else {
-                http_response_code(404); // Not Found
-                echo json_encode(['success' => false, 'message' => 'Report not found']);
+        
+                $model = new Reportes();
+                $report = $model->find($id);
+        
+                if ($report) {
+                    log_message('info', 'Report Array: ' . print_r($report, true));
+                    log_message('info', 'Document Type: ' . $documentType);
+        
+                    if (array_key_exists($documentType, $report)) {
+                        $pdfName = $report[$documentType];
+        
+                        // Leer el contenido del PDF
+                        $pdfContent = file_get_contents(ROOTPATH . 'public/PDFs/' . $pdfName);
+        
+                        // Devolver el contenido del PDF como base64
+                        echo json_encode(['success' => true, 'pdfData' => base64_encode($pdfContent), 'reportId' => $report['Idreporte']]);
+                    } else {
+                        echo json_encode(['success' => false, 'message' => 'Document type not found for this report']);
+                    }
+                } else {
+                    http_response_code(404); // Not Found
+                    echo json_encode(['success' => false, 'message' => 'Report not found']);
+                }
+            } catch (\Exception $e) {
+                log_message('error', 'Error in getDocumento: ' . $e->getMessage());
+                http_response_code(500); // Internal Server Error
+                echo json_encode(['success' => false, 'message' => 'Internal Server Error']);
             }
-        } catch (\Exception $e) {
-            log_message('error', 'Error in getDocumento: ' . $e->getMessage());
-            http_response_code(500); // Internal Server Error
-            echo json_encode(['success' => false, 'message' => 'Internal Server Error']);
         }
-    }
     
 
     public function subirPDF($id = null)
@@ -194,4 +202,133 @@ public function formulariopdf($id)
 
 
 
+
+    public function vista_formulario_crear_reporte()
+    {
+        
+    
+        
+        $data['titulo']="Crear reporte";
+        
+        return view("reporte/crear_reporte", $data);
+    }
+
+    public function guardar_reporte()
+    {
+        // Validación de formulario (ajusta según tus necesidades)
+        $validationRules = [
+            'nombre' => 'required',
+            'apellido' => 'required',
+            'nua' => 'required',
+            'Ci' => 'required',
+            'fechanacimiento' => 'required',
+            'fechaingreso' => 'required',
+            'fechafin' => 'required',
+            // Agrega las reglas de validación para otros campos según sea necesario
+        ];
+    
+        // Realiza la validación
+        if (!$this->validate($validationRules)) {
+            // Si la validación falla, redirige de nuevo al formulario con los errores
+            return redirect()->to(base_url('Reporte/vista_formulario_crear_reporte'))->withInput()->with('errors', $this->validator->getErrors());
+        }
+    
+        // Datos del formulario validados
+        $reporteData = [
+            'nombre' => $this->request->getPost('nombre'),
+            'apellido' => $this->request->getPost('apellido'),
+            'nua' => $this->request->getPost('nua'),
+            'Ci' => $this->request->getPost('Ci'),
+            'fechanacimiento' => date('Y-m-d', strtotime($this->request->getPost('fechanacimiento'))),
+            'fechaingreso' => date('Y-m-d', strtotime($this->request->getPost('fechaingreso'))),
+            'fechafin' => date('Y-m-d', strtotime($this->request->getPost('fechafin'))),
+            // ...
+        ];
+    
+        try {
+            // Intenta insertar el nuevo reporte en la base de datos
+            $this->reportesModel->insert($reporteData);
+    
+            // Establece un mensaje de éxito en la sesión
+            $this->session->setFlashdata('success_message', 'Reporte creado exitosamente');
+    
+            // Redirige a la vista del formulario con el mensaje de éxito
+            return redirect()->to(base_url('Reporte/vista_formulario_crear_reporte'));
+        } catch (\Exception $e) {
+            // Manejo de errores
+            log_message('error', 'Error al crear el reporte: ' . $e->getMessage());
+    
+            // Establece un mensaje de error en la sesión
+            $this->session->setFlashdata('error_message', 'Error al crear el reporte. Por favor, inténtalo de nuevo.');
+    
+            // Redirige a la vista del formulario con el mensaje de error
+            return redirect()->to(base_url('Reporte/vista_formulario_crear_reporte'));
+        }
+    }
+    
+    public function editar_reporte()
+    {
+        
+    
+        $model = new Reportes();
+        
+        $data['reportes'] = $model->orderBy('Idreporte', 'ASC')->findAll();
+        
+        $data['titulo']="Lista editar";
+        
+        
+        return view("reporte/lista_editar", $data);
+    }
+    
+    public function formulario_editar_reporte($id_reporte)
+{
+    $model = new Reportes();
+    $reporte = $model->find($id_reporte);
+
+    // Verifica si el reporte existe
+    if ($reporte) {
+        $data['titulo'] = "Editar Reporte";
+        $data['reporte'] = $reporte;
+
+        return view("reporte/editar_reporte", $data);
+    } else {
+        // Manejar el caso donde el reporte no existe
+        return redirect()->to(base_url('Reporte/listar_reportes'))->with('error_message', 'No se encontró el reporte.');
+    }
+}
+
+
+public function guardar_edicion()
+    {
+        $model = new Reportes();
+
+        // Validar y sanitizar datos del formulario
+        $id_reporte = $this->request->getPost('id_reporte');
+        $nombre = $this->request->getPost('nombre');
+        $apellido = $this->request->getPost('apellido');
+        $Ci = $this->request->getPost('Ci');
+        $nua = $this->request->getPost('nua');
+        $fechanacimiento = $this->request->getPost('fechanacimiento');
+        $fechaingreso = $this->request->getPost('fechaingreso');
+        $fechafin = $this->request->getPost('fechafin');
+
+        // Realizar validaciones adicionales si es necesario
+
+        // Actualizar el reporte en la base de datos
+        $model->update($id_reporte, [
+            'nombre' => $nombre,
+            'apellido' => $apellido,
+            'Ci' => $Ci,
+            'nua' => $nua,
+            'fechanacimiento' => $fechanacimiento,
+            'fechaingreso' => $fechaingreso,
+            'fechafin' => $fechafin,
+        ]);
+
+        // Redireccionar con un mensaje de éxito
+        return redirect()->to(base_url('Reporte/editar_reporte'));
+    }
+
+
+    
 }

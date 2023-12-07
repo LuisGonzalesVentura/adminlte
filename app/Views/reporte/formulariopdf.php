@@ -86,10 +86,55 @@
 </section>
 
 <!-- /.content -->
-
 <script type="text/javascript">
-   $("#menureporte").addClass("menu-open");
+    $("#menureporte").addClass("menu-open");
     $("#PDFs").addClass("active");
+
+    // Agregar un listener al formulario para mostrar una confirmación antes de enviar
+    $("form").submit(function (event) {
+        event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+
+        var archivosSeleccionados = [];
+
+        // Obtener todos los archivos seleccionados
+        $('input[type="file"]').each(function () {
+            var files = this.files;
+            if (files.length > 0) {
+                archivosSeleccionados.push(files[0].name);
+            }
+        });
+
+        if (archivosSeleccionados.length > 0) {
+            // Si hay al menos un archivo seleccionado, mostrar la ventana de confirmación
+            var documentos = archivosSeleccionados.join('\n- ');
+
+            Swal.fire({
+                title: '¿Estás seguro?',
+                text: 'Se subirán los siguientes documentos:\n- ' + documentos,
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Subir',
+                cancelButtonText: 'Cancelar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Si el usuario confirma, enviar el formulario
+                    $("form")[0].submit();
+                }
+            });
+        } else {
+            // Si no hay archivos seleccionados, mostrar una advertencia
+            Swal.fire({
+                title: '¡Advertencia!',
+                text: 'Selecciona al menos un documento para subir.',
+                icon: 'warning',
+                confirmButtonColor: '#3085d6',
+                confirmButtonText: 'OK'
+            });
+        }
+    });
 </script>
+
 
 <?=$this->endSection(); ?>

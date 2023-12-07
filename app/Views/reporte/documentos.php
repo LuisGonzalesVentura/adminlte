@@ -42,13 +42,16 @@
                             </thead>
                             <tbody>
                             <!-- En la vista documentos.php -->
+
                             <?php foreach ($reportes as $reporte): ?>
     <tr>
         <td><label>Carnet de Identidad</label></td>
         <td>
             <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="carnetescaneado" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
         </td>
-        
+    </tr>
+   
+         
     </tr>
     <tr>
         <td><label>Ingreso caja PDF</label></td>
@@ -79,7 +82,9 @@
         
     </tr>
     <!-- Otros tipos de documentos ... -->
+    <!-- Otros tipos de documentos ... -->
 <?php endforeach; ?>
+
 
                                
                                 <!-- Add more rows for additional details if needed -->
@@ -103,7 +108,7 @@ $("#menureporte").addClass("menu-open");
     $("#reportelista").addClass("active");
 
 
- $(document).ready(function () {
+    $(document).ready(function () {
     $(".verDocumentoBtn").on("click", function () {
         var documentType = $(this).data("document-type");
         var reportId = $(this).data("report-id");
@@ -112,6 +117,8 @@ $("#menureporte").addClass("menu-open");
 });
 
 function verDocumento(documentType, reportId) {
+    console.log(reportId);  // Verifica el valor de reportId
+
     // Verificar si reportId es null o no
     if (reportId !== null && reportId !== 'null') {
         $.ajax({
@@ -139,6 +146,7 @@ function verDocumento(documentType, reportId) {
         alert("Report ID is not available.");
     }
 }
+
 
 function b64toBlob(b64Data, contentType = '', sliceSize = 512) {
     const byteCharacters = atob(b64Data);

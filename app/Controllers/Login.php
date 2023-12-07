@@ -16,29 +16,32 @@ class Login extends BaseController
     public function validarIngreso()
     {
         $this->usuario = new Usuario();
-        $usuarios = $this->usuario->where('usuario', $_POST['emailUsuario'])->findAll();
-
-        if (!empty($usuarios)) {
-            $user = $usuarios[0];
-
-            if (password_verify($_POST['clave'], $user['clave'])) {
-                // Contraseña válida
+        $user = $this->usuario->buscarUsuarioActivo($_POST['emailUsuario']);
+    
+        if ($user) {
+            if (password_verify($_POST['clave'], $user->clave)) {
                 $data = [
-                    "usuarios" => $user['nombre'] . ' ' . $user['apellido'],
-                    "foto" => $user['foto']
+                    "usuarios" => $user->nombre . ' ' . $user->apellido,
+                    "foto" => $user->foto,
+                    "rol" => $user->rol
                 ];
                 session()->set($data);
-
+    
                 return redirect()->to(base_url('escritorio'));
             } else {
-                // Contraseña incorrecta
-                echo "Error de inicio de sesión: Contraseña incorrecta";
+                $mensaje = "Error de inicio de sesión: Contraseña incorrecta";
+                $this->mostrarAlerta($mensaje);
             }
         } else {
-            // Usuario no encontrado
-            echo "Error de inicio de sesión: Usuario no encontrado";
+            $mensaje = "Error de inicio de sesión: Usuario no encontrado o inactivo";
+            $this->mostrarAlerta($mensaje);
         }
     }
+    
+    private function mostrarAlerta($mensaje)
+{
+    echo "<script>alert('$mensaje'); window.location.href = '" . base_url('Login') . "';</script>";
+}
 
     public function cerrarSesion()
     {

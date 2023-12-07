@@ -1,0 +1,906 @@
+INFO - 2023-12-01 13:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 13:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-01 14:26:46 --> Error al crear el reporte: Undefined property: App\Controllers\Reporte::$reportesModel
+INFO - 2023-12-01 14:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-01 14:29:29 --> Error al crear el reporte: Undefined property: App\Controllers\Reporte::$reportesModel
+INFO - 2023-12-01 14:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:31:30 --> Antes de insertar en la base de datos
+ERROR - 2023-12-01 14:31:30 --> Error al crear el reporte: Undefined property: App\Controllers\Reporte::$reportesModel
+INFO - 2023-12-01 14:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:34:28 --> Antes de insertar en la base de datos
+INFO - 2023-12-01 14:34:28 --> Después de insertar en la base de datos
+INFO - 2023-12-01 14:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:35:16 --> Antes de insertar en la base de datos
+INFO - 2023-12-01 14:35:16 --> Después de insertar en la base de datos
+INFO - 2023-12-01 14:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:37:42 --> Antes de insertar en la base de datos
+INFO - 2023-12-01 14:37:42 --> Después de insertar en la base de datos
+INFO - 2023-12-01 14:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:42:35 --> Antes de insertar en la base de datos
+INFO - 2023-12-01 14:42:35 --> Después de insertar en la base de datos
+INFO - 2023-12-01 14:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:44:02 --> Antes de insertar en la base de datos
+INFO - 2023-12-01 14:44:02 --> Después de insertar en la base de datos
+INFO - 2023-12-01 14:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:49:02 --> Antes de insertar en la base de datos
+INFO - 2023-12-01 14:49:02 --> Después de insertar en la base de datos
+INFO - 2023-12-01 14:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:49:23 --> Antes de insertar en la base de datos
+INFO - 2023-12-01 14:49:23 --> Después de insertar en la base de datos
+INFO - 2023-12-01 14:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:51:58 --> Antes de insertar en la base de datos
+INFO - 2023-12-01 14:51:58 --> Después de insertar en la base de datos
+INFO - 2023-12-01 14:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 14:59:22 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 14:59:22 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 14:59:22 --> Document Type: carnetescaneado
+INFO - 2023-12-01 14:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 14:59:31 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 14:59:31 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 14:59:31 --> Document Type: finiquito1
+INFO - 2023-12-01 14:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 14:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 14:59:51 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 14:59:51 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 14:59:51 --> Document Type: carnetescaneado
+INFO - 2023-12-01 14:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:02:04 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:02:04 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:02:04 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:37 --> Carnet Escaneado File Name: 1701443017_c2e057cad9812ac51b78.pdf
+ERROR - 2023-12-01 15:03:37 --> Exception: Undefined variable $newNameIngresoCaja
+INFO - 2023-12-01 15:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:03:43 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:03:43 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:03:43 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:03:54 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:03:54 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:03:54 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:04:00 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:04:00 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:04:00 --> Document Type: ingresocaja
+INFO - 2023-12-01 15:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:04:14 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:04:14 --> Report Array: Array
+(
+    [Idreporte] => 14
+    [apellido] => roberto
+    [nombre] => perez
+    [Ci] => dfdfdfdfxc
+    [fechanacimiento] => 2023-12-08
+    [nua] => tttttttttttttttttttttttt
+    [fechaingreso] => 2023-12-20
+    [fechafin] => 2023-12-16
+    [carnetescaneado] => 1701443017_c2e057cad9812ac51b78.pdf
+    [ingresocaja] => 
+    [contrato1] => 
+    [finiquito1] => 
+    [retirocaja] => 
+)
+
+INFO - 2023-12-01 15:04:14 --> Document Type: finiquito1
+ERROR - 2023-12-01 15:04:14 --> Error in getDocumento: file_get_contents(C:\xamppp\htdocs\adminlte\public/PDFs/): Failed to open stream: No such file or directory
+INFO - 2023-12-01 15:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:04:18 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:04:18 --> Report Array: Array
+(
+    [Idreporte] => 13
+    [apellido] => roberto
+    [nombre] => perez
+    [Ci] => dfdfdfdfxc
+    [fechanacimiento] => 2027-10-08
+    [nua] => tttttttttttttttttttttttt
+    [fechaingreso] => 2023-12-23
+    [fechafin] => 2023-12-22
+    [carnetescaneado] => 
+    [ingresocaja] => 
+    [contrato1] => 
+    [finiquito1] => 
+    [retirocaja] => 
+)
+
+INFO - 2023-12-01 15:04:18 --> Document Type: carnetescaneado
+ERROR - 2023-12-01 15:04:18 --> Error in getDocumento: file_get_contents(C:\xamppp\htdocs\adminlte\public/PDFs/): Failed to open stream: No such file or directory
+INFO - 2023-12-01 15:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:04:20 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:04:20 --> Report Array: Array
+(
+    [Idreporte] => 12
+    [apellido] => roberto
+    [nombre] => perez
+    [Ci] => dfdfdfdfxc
+    [fechanacimiento] => 2023-12-12
+    [nua] => tttttttttttttttttttttttt
+    [fechaingreso] => 2023-12-31
+    [fechafin] => 2023-12-15
+    [carnetescaneado] => 
+    [ingresocaja] => 
+    [contrato1] => 
+    [finiquito1] => 
+    [retirocaja] => 
+)
+
+INFO - 2023-12-01 15:04:20 --> Document Type: ingresocaja
+ERROR - 2023-12-01 15:04:20 --> Error in getDocumento: file_get_contents(C:\xamppp\htdocs\adminlte\public/PDFs/): Failed to open stream: No such file or directory
+INFO - 2023-12-01 15:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:04:28 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:04:28 --> Report Array: Array
+(
+    [Idreporte] => 12
+    [apellido] => roberto
+    [nombre] => perez
+    [Ci] => dfdfdfdfxc
+    [fechanacimiento] => 2023-12-12
+    [nua] => tttttttttttttttttttttttt
+    [fechaingreso] => 2023-12-31
+    [fechafin] => 2023-12-15
+    [carnetescaneado] => 
+    [ingresocaja] => 
+    [contrato1] => 
+    [finiquito1] => 
+    [retirocaja] => 
+)
+
+INFO - 2023-12-01 15:04:28 --> Document Type: carnetescaneado
+ERROR - 2023-12-01 15:04:28 --> Error in getDocumento: file_get_contents(C:\xamppp\htdocs\adminlte\public/PDFs/): Failed to open stream: No such file or directory
+INFO - 2023-12-01 15:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:04:33 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:04:33 --> Report Array: Array
+(
+    [Idreporte] => 14
+    [apellido] => roberto
+    [nombre] => perez
+    [Ci] => dfdfdfdfxc
+    [fechanacimiento] => 2023-12-08
+    [nua] => tttttttttttttttttttttttt
+    [fechaingreso] => 2023-12-20
+    [fechafin] => 2023-12-16
+    [carnetescaneado] => 1701443017_c2e057cad9812ac51b78.pdf
+    [ingresocaja] => 
+    [contrato1] => 
+    [finiquito1] => 
+    [retirocaja] => 
+)
+
+INFO - 2023-12-01 15:04:33 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:14:15 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:14:15 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:14:15 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:14:20 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:14:20 --> Report Array: Array
+(
+    [Idreporte] => 14
+    [apellido] => roberto
+    [nombre] => perez
+    [Ci] => dfdfdfdfxc
+    [fechanacimiento] => 2023-12-08
+    [nua] => tttttttttttttttttttttttt
+    [fechaingreso] => 2023-12-20
+    [fechafin] => 2023-12-16
+    [carnetescaneado] => 1701443017_c2e057cad9812ac51b78.pdf
+    [ingresocaja] => 
+    [contrato1] => 
+    [finiquito1] => 
+    [retirocaja] => 
+)
+
+INFO - 2023-12-01 15:14:20 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:17:42 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:17:42 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:17:42 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:20:40 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:20:40 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:20:40 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:20:49 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:20:49 --> Report Array: Array
+(
+    [Idreporte] => 14
+    [apellido] => roberto
+    [nombre] => perez
+    [Ci] => dfdfdfdfxc
+    [fechanacimiento] => 2023-12-08
+    [nua] => tttttttttttttttttttttttt
+    [fechaingreso] => 2023-12-20
+    [fechafin] => 2023-12-16
+    [carnetescaneado] => 1701443017_c2e057cad9812ac51b78.pdf
+    [ingresocaja] => 
+    [contrato1] => 
+    [finiquito1] => 
+    [retirocaja] => 
+)
+
+INFO - 2023-12-01 15:20:49 --> Document Type: contrato1
+ERROR - 2023-12-01 15:20:49 --> Error in getDocumento: file_get_contents(C:\xamppp\htdocs\adminlte\public/PDFs/): Failed to open stream: No such file or directory
+INFO - 2023-12-01 15:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:20:54 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:20:54 --> Report Array: Array
+(
+    [Idreporte] => 14
+    [apellido] => roberto
+    [nombre] => perez
+    [Ci] => dfdfdfdfxc
+    [fechanacimiento] => 2023-12-08
+    [nua] => tttttttttttttttttttttttt
+    [fechaingreso] => 2023-12-20
+    [fechafin] => 2023-12-16
+    [carnetescaneado] => 1701443017_c2e057cad9812ac51b78.pdf
+    [ingresocaja] => 
+    [contrato1] => 
+    [finiquito1] => 
+    [retirocaja] => 
+)
+
+INFO - 2023-12-01 15:20:54 --> Document Type: finiquito1
+ERROR - 2023-12-01 15:20:54 --> Error in getDocumento: file_get_contents(C:\xamppp\htdocs\adminlte\public/PDFs/): Failed to open stream: No such file or directory
+INFO - 2023-12-01 15:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 15:21:14 --> Undefined variable $reporte
+in APPPATH\Views\reporte\documentos.php on line 49.
+ 1 APPPATH\Views\reporte\documentos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reporte', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reporte/documentos', [], true)
+ 5 APPPATH\Controllers\Reporte.php(53): view('reporte/documentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->documentos('14')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 15:21:19 --> Undefined variable $reporte
+in APPPATH\Views\reporte\documentos.php on line 49.
+ 1 APPPATH\Views\reporte\documentos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reporte', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reporte/documentos', [], true)
+ 5 APPPATH\Controllers\Reporte.php(53): view('reporte/documentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->documentos('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 15:21:43 --> Undefined array key "Idreporte"
+in APPPATH\Views\reporte\documentos.php on line 49.
+ 1 APPPATH\Views\reporte\documentos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idreporte"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reporte/documentos', [], true)
+ 5 APPPATH\Controllers\Reporte.php(53): view('reporte/documentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->documentos('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:26:39 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:26:39 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:26:39 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:28:03 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:28:03 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:28:03 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:41:14 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:41:14 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:41:14 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:42:59 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:42:59 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:42:59 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 15:47:59 --> Undefined variable $reporte
+in APPPATH\Views\reporte\documentos.php on line 46.
+ 1 APPPATH\Views\reporte\documentos.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reporte', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reporte/documentos', [], true)
+ 5 APPPATH\Controllers\Reporte.php(53): view('reporte/documentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->documentos('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:53:33 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:53:33 --> Report Array: Array
+(
+    [Idreporte] => 14
+    [apellido] => roberto
+    [nombre] => perez
+    [Ci] => dfdfdfdfxc
+    [fechanacimiento] => 2023-12-08
+    [nua] => tttttttttttttttttttttttt
+    [fechaingreso] => 2023-12-20
+    [fechafin] => 2023-12-16
+    [carnetescaneado] => 1701443017_c2e057cad9812ac51b78.pdf
+    [ingresocaja] => 
+    [contrato1] => 
+    [finiquito1] => 
+    [retirocaja] => 
+)
+
+INFO - 2023-12-01 15:53:33 --> Document Type: carnetescaneado
+INFO - 2023-12-01 15:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:55:19 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 15:55:19 --> Class "App\Controllers\InvalidArgumentException" not found
+in APPPATH\Controllers\Reporte.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:55:21 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 15:55:21 --> Class "App\Controllers\InvalidArgumentException" not found
+in APPPATH\Controllers\Reporte.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:55:23 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 15:55:23 --> Class "App\Controllers\InvalidArgumentException" not found
+in APPPATH\Controllers\Reporte.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:55:26 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 15:55:26 --> Class "App\Controllers\InvalidArgumentException" not found
+in APPPATH\Controllers\Reporte.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:55:32 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 15:55:32 --> Class "App\Controllers\InvalidArgumentException" not found
+in APPPATH\Controllers\Reporte.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 15:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-01 15:57:28 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-01 15:57:28 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-01 15:57:28 --> Document Type: carnetescaneado

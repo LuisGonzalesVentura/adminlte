@@ -17,7 +17,7 @@
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
           <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item active">Subir PDFs</li>
+          <li class="breadcrumb-item active">Editar</li>
         </ol>
       </div>
     </div>
@@ -34,7 +34,7 @@
       <div class="row">
         <!-- left column -->
         <div class="col-md-12">
-    <table id="tablaReportes"  class="table table-light">
+    <table id="tablaReportess"  class="table table-light">
       
         <thead class="thead-light">
             <tr>
@@ -42,7 +42,7 @@
                 <th>Nombre</th>
                 <th>Carnet</th>
                 <th>Acciones</th>
-   
+             
 
             </tr>
         </thead>
@@ -51,9 +51,9 @@
       <!-- SidebarSearch Form -->
       <div class="form-inline">
     <div class="input-group" data-widget="sidebar-search">
-        <input class="form-control form-control-sidebar" id="searchInput" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control form-control-sidebar" id="searchInputt" type="search" placeholder="Search" aria-label="Search">
         <div class="input-group-append">
-            <button class="btn btn-sidebar" id="searchButton">
+            <button class="btn btn-sidebar" id="searchButtonn">
                 <i class="fas fa-search fa-fw"></i>
             </button>
         </div>
@@ -61,7 +61,7 @@
     
     <div class="card-footer">
                                 
-                                <?= anchor('Reporte/subirpdf', 'Lista', ['class' => 'btn btn-primary']); ?>
+                                <?= anchor('Reporte/editar_reporte', 'Lista', ['class' => 'btn btn-primary']); ?>
 
                             </div>
 </div>
@@ -74,10 +74,10 @@
 
                 
                     <td>
-                    <a href="<?php echo 'formulariopdf/'.$reporte['Idreporte']?>" class="btn btn-success" type="button">subirPDFs</a>
-                    </td>
+                        <a href="<?php echo 'formulario_editar_reporte/'.$reporte['Idreporte']?>" class="btn btn-success" type="button">Editar Reporte</a>
+                    </td>   
 
-                   
+                    
                 </tr>
             <?php endforeach; ?>
         </tbody>
@@ -86,28 +86,23 @@
 
 
 
-      </div>
-    </div>
-  </section>
-
-  <!-- /.content -->
-  
 <script type="text/javascript">
     $(document).ready(function () {
-       
+        $("#menureporte").addClass("menu-open");
+        $("#editar_reporte").addClass("active");
 
         // Agrega un evento al botón de búsqueda
-        $("#searchButton").on("click", function () {
+        $("#searchButtonn").on("click", function () {
             // Obtiene el valor de búsqueda
-            var searchText = $("#searchInput").val().toLowerCase();
+            var searchText = $("#searchInputt").val().toLowerCase();
 
             // Filtra las filas de la tabla según el valor de búsqueda
-            var foundElements = $("#tablaReportes tbody tr").filter(function () {
+            var foundElements = $("#tablaReportess tbody tr").filter(function () {
                 return $(this).text().toLowerCase().indexOf(searchText) > -1;
             });
 
             // Oculta todas las filas
-            $("#tablaReportes tbody tr").hide();
+            $("#tablaReportess tbody tr").hide();
 
             // Si se encontraron elementos, muestra solo esos
             if (foundElements.length > 0) {
@@ -122,9 +117,14 @@
     });
 </script>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- /.content -->
+
   <script type="text/javascript">
     $("#menureporte").addClass("menu-open");
-    $("#PDFs").addClass("active");
+    $("#editar_reporte").addClass("active");
   </script>
-
   <?= $this->endSection(); ?>

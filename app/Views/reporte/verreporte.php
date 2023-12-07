@@ -33,33 +33,66 @@
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
-                        <table>
-                            <thead>
-                                <!-- Add table header content if needed -->
-                            </thead>
-                            <tbody>
-                                <?php if ($reporte): ?>
-                                    <p><label>ID:  </label> <?= $reporte['Idreporte']; ?></p>
-                                    <p><label>Apellido:  </label>  <?= $reporte['apellido']; ?></p>
-                                    <p><label>Nombre:  </label>  <?= $reporte['nombre']; ?></p>
-                                    <p><label>Carnet:  </label>  <?= $reporte['Ci']; ?></p>
-                                    <p><label>Nua:  </label>  <?= $reporte['nua']; ?></p>
-                                    <p><label>Fecha Nacimiento:  </label>  <?= $reporte['fechanacimiento']; ?></p>
-                                    <p><label>Fecha Ingreso:  </label>  <?= $reporte['fechaingreso']; ?></p>
-                                    <p><label>Fecha Retiro:  </label> <?= $reporte['fechafin']; ?></p>
-                                    
-                    <td>
-                    <a href="<?= base_url('Reporte/documentos/' . $reporte['Idreporte']) ?>" class="btn btn-success" type="button">Documentos</a>
-                                       <?= anchor('Reporte/index', 'Regresar', ['class' => 'btn btn-primary']); ?>
-                    </td>   
-                                <?php else: ?>
-                                    
-                                    <p>No se encontró el reporte seleccionado.</p>
-                                <?php endif; ?>
+                    <table class="table">
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php if ($reporte): ?>
+            <tr>
+            <th><strong>ID</strong></th>
+                <td><?= $reporte['Idreporte']; ?></td>
+            </tr>
+            <tr>
+            <th><strong>Apellido</strong></th>
+                <td><?= $reporte['apellido']; ?></td>
+            </tr>
+            <tr>
+            <th><strong>Nombre</strong></th>
+                <td><?= $reporte['nombre']; ?></td>
+            </tr>
+            <tr>
+            <th><strong>Carnet</strong></th>
+                <td><?= $reporte['Ci']; ?></td>
+            </tr>
+            <tr>
+            <th><strong>Nua</strong></th>
+                <td><?= $reporte['nua']; ?></td>
+            </tr>
+            <tr>
+            <th><strong>Fecha Nacimiento</strong></th>
+                <td><?= $reporte['fechanacimiento']; ?></td>
+            </tr>
+            <tr>
+            <th><strong>Fecha Ingreso</strong></th>
+                <td><?= $reporte['fechaingreso']; ?></td>
+            </tr>
+            <tr>
+            <th><strong>Fecha Fin</strong></th>
+                <td><?= $reporte['fechafin']; ?></td>
+            </tr>
+            
+            
+            <tr>
+                
+                <td>
+                    <a href="<?= base_url('Reporte/documentos/' . $reporte['Idreporte']) ?>" class="btn btn-success" type="button">Ver Documentos</a>
+                    <?= anchor('Reporte/index', 'Regresar', ['class' => 'btn btn-primary']); ?>
+                
+                </td>
+            </tr>
+           
+        <?php else: ?>
+            <tr>
+                <td colspan="2">No se encontró el reporte seleccionado.</td>
+            </tr>
+        <?php endif; ?>
+    </tbody>
+</table>
 
-                                
-                            </tbody>
-                        </table>
                     </div>
                     <!-- /.card-body -->
 

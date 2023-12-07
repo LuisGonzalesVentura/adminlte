@@ -16,8 +16,9 @@ class listaborrarusuarios extends BaseController
         return view("Usuarios/listaborrarusuarios", $data);
     }
     public function borrar($id=null){
-        $this->usuario=new Usuario();
-        $datosImagen = $this->usuario->where('Idusuario', $id)->first();
+        
+    $this->usuario = new Usuario();
+    $datosImagen = $this->usuario->where('Idusuario', $id)->first();
                 if($datosImagen['foto']!=''){
                 $ruta = ("../public/uploads/" . $datosImagen['foto']);
                 
