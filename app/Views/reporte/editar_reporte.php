@@ -60,6 +60,10 @@
                                 <label for="fechafin">Fecha Retiro</label>
                                 <input type="date" class="form-control" id="fechafin" name="fechafin" placeholder="Fecha retiro" value="<?= $reporte['fechafin'] ?>">
                             </div>
+                            <div class="form-group">
+                                <label for="ubicacion">Ubicacion del archivo</label>
+                                <input type="text" class="form-control" id="ubicacion" name="ubicacion" placeholder="Ingresa ubicacion" value="<?= $reporte['ubicacion'] ?>" required>
+                            </div>
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer">

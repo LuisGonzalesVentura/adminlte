@@ -1,0 +1,34 @@
+INFO - 2023-12-15 19:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 19:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 19:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 19:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 19:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 19:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 19:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 19:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 19:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 19:53:55 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-15 19:53:55 --> Report Array: Array
+(
+    [Idreporte] => 4
+    [apellido] => Quispe Huanca
+    [nombre] => Ana Eugenia
+    [Ci] => 6182673
+    [fechanacimiento] => 2023-11-03
+    [nua] => 415dfasd
+    [fechaingreso] => 2023-11-07
+    [fechafin] => 2019-11-18
+    [carnetescaneado] => 1701199000_79bf595c4137c32466de.pdf
+    [ingresocaja] => 1701199000_7c2298ef3fc51b7ca93f.pdf
+    [contrato1] => 1701199000_87056eaab0a456a3d462.pdf
+    [finiquito1] => 1701199000_bc6a115b8f19cfc2e3dd.pdf
+    [retirocaja] => 1701199000_e21ad38ed76ecee7b061.pdf
+)
+
+INFO - 2023-12-15 19:53:55 --> Document Type: carnetescaneado
+INFO - 2023-12-15 19:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 19:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

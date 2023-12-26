@@ -63,8 +63,14 @@
 </div>
 <div class="form-group">
     <label for="fechafin">Fecha Retiro</label>
-    <input type="date" class="form-control" id="fechafin" name="fechafin" placeholder="Fecha retiro" >
+    <input type="date" class="form-control" id="fechafin" name="fechafin" placeholder="Fecha retiro">
 </div>
+
+<div class="form-group">
+                                <label for="ubicacion">Ubicacion</label>
+                                <input type="text" class="form-control" id="ubicacion" name="ubicacion" placeholder="Ingresa la ubicacion" required>
+                            </div>
+
 
                         </div>
                         <!-- /.card-body -->

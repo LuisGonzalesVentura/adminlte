@@ -74,6 +74,9 @@
             <th><strong>Fecha Fin</strong></th>
                 <td><?= $reporte['fechafin']; ?></td>
             </tr>
+            <th><strong>Ubicacion del archivo</strong></th>
+                <td><?= $reporte['ubicacion']; ?></td>
+            </tr>
             
             
             <tr>

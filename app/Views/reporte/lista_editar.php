@@ -38,6 +38,8 @@
       
         <thead class="thead-light">
             <tr>
+            
+                <th>#</th>
                 <th>Apellido</th>
                 <th>Nombre</th>
                 <th>Carnet</th>
@@ -66,8 +68,14 @@
                             </div>
 </div>
       </div>
-            <?php foreach ($reportes as $reporte) : ?>
+            <?php
+                    $contador = 1; // Asegúrate de inicializar $contador antes del bucle foreach
+ 
+            foreach ($reportes as $reporte) : ?>
                 <tr>
+                
+                <td><?php echo $contador; ?></td>
+
                     <td><?php echo $reporte['apellido']; ?></td>
                     <td><?php echo $reporte['nombre']; ?></td>
                     <td><?php echo $reporte['Ci']; ?></td>
@@ -79,7 +87,11 @@
 
                     
                 </tr>
+                <?php $contador++; ?>
+
             <?php endforeach; ?>
+            <strong>Total:</strong> <?php echo $contador - 1; ?> Reportes
+
         </tbody>
     </table>
 </div>

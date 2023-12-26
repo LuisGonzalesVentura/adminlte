@@ -38,6 +38,8 @@
       
         <thead class="thead-light">
             <tr>
+
+                <th>#</th>
                 <th>Apellido</th>
                 <th>Nombre</th>
                 <th>Carnet</th>
@@ -60,28 +62,37 @@
     </div>
     
     <div class="card-footer">
-                                
-                                <?= anchor('Reporte/index', 'Lista', ['class' => 'btn btn-primary']); ?>
-
+    <div>
+        <?= anchor('Reporte/index', 'Lista', ['class' => 'btn btn-primary']); ?>
+    </div>
+   
+                            </div>
+                            
+</div>
                             </div>
 </div>
+
       </div>
-            <?php foreach ($reportes as $reporte) : ?>
-                <tr>
-                    <td><?php echo $reporte['apellido']; ?></td>
-                    <td><?php echo $reporte['nombre']; ?></td>
-                    <td><?php echo $reporte['Ci']; ?></td>
-
-                
-                    <td>
-                        <a href="<?php echo 'ver/'.$reporte['Idreporte']?>" class="btn btn-success" type="button">Ver Informacion</a>
-                    </td>
-
-                    <td>
-                    <a href="<?php echo 'documentos/'.$reporte['Idreporte']?>" class="btn btn-success" type="button">Documentos</a>
-                    </td>
-                </tr>
-            <?php endforeach; ?>
+      
+      <?php
+        $contador = 1; // Asegúrate de inicializar $contador antes del bucle foreach
+        foreach ($reportes as $reporte) :
+        ?>
+            <tr>
+                <td><?php echo $contador; ?></td>
+                <td><?php echo $reporte['apellido']; ?></td>
+                <td><?php echo $reporte['nombre']; ?></td>
+                <td><?php echo $reporte['Ci']; ?></td>
+                <td>
+                    <a href="<?php echo 'ver/' . $reporte['Idreporte'] ?>" class="btn btn-success" type="button">Ver Informacion</a>
+                </td>
+                <td>
+                    <a href="<?php echo 'documentos/' . $reporte['Idreporte'] ?>" class="btn btn-success" type="button">Documentos</a>
+                </td>
+            </tr>
+            <?php $contador++; ?>
+        <?php endforeach; ?>
+        <strong>Total:</strong> <?php echo $contador - 1; ?> Reportes
         </tbody>
     </table>
 </div>
@@ -123,7 +134,24 @@
   </section>
 
   <!-- /.content -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+        // Obtén todas las filas de la tabla
+        var filas = $("#tablaReportes tbody tr");
 
+        // Recorre cada fila y asigna un número secuencial en la columna #
+        filas.each(function (index) {
+            // Obtén la fila actual
+            var fila = $(this);
+
+            // Encuentra el elemento en la columna #
+            var columnaNumero = fila.find('td:first');
+
+            // Asigna el número secuencial
+            columnaNumero.text(index  1);
+        });
+    });
+</script>
   <script type="text/javascript">
     $("#menureporte").addClass("menu-open");
     $("#reportelista").addClass("active");

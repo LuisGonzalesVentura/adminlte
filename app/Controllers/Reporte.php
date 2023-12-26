@@ -15,15 +15,12 @@ class Reporte extends BaseController
 
     public function index()
     {
-        
         $model = new Reportes();
-        
-        $data['reportes'] = $model->orderBy('Idreporte', 'ASC')->findAll();
-        
-        $data['titulo']="Lista reporte";
-        
+        $data['reportes'] = $model->orderBy('apellido', 'ASC')->findAll();
+        $data['titulo'] = "Lista reporte";
         return view("reporte/index", $data);
     }
+    
 
  
     public function ver($id)
@@ -176,7 +173,7 @@ try {
 
         }
     
-        $data['reportes'] = $model->orderBy('Idreporte', 'ASC')->findAll();
+        $data['reportes'] = $model->orderBy('apellido', 'ASC')->findAll();
         $data['titulo'] = "Subir PDF";
     
         return view("reporte/subirpdf", $data);
@@ -223,7 +220,8 @@ public function formulariopdf($id)
             'Ci' => 'required',
             'fechanacimiento' => 'required',
             'fechaingreso' => 'required',
-            'fechafin' => 'required',
+            'fechafin' => 'permit_empty|valid_date[Y-m-d]', // Cambiado para permitir vacío y validar formato
+            'ubicacion' => 'required', // Cambiado para reflejar el nombre del campo en la base de datos
             // Agrega las reglas de validación para otros campos según sea necesario
         ];
     
@@ -234,6 +232,17 @@ public function formulariopdf($id)
         }
     
         // Datos del formulario validados
+        $fechafin = $this->request->getPost('fechafin');
+    
+        // Verifica si se proporcionó una fecha de retiro
+        if (empty($fechafin)) {
+            // Si no se proporcionó una fecha de retiro, establece "0000-00-00"
+            $fechafin = '0000-00-00';
+        } else {
+            // Si se proporcionó una fecha de retiro, conviértela al formato deseado
+            $fechafin = date('Y-m-d', strtotime($fechafin));
+        }
+    
         $reporteData = [
             'nombre' => $this->request->getPost('nombre'),
             'apellido' => $this->request->getPost('apellido'),
@@ -241,8 +250,9 @@ public function formulariopdf($id)
             'Ci' => $this->request->getPost('Ci'),
             'fechanacimiento' => date('Y-m-d', strtotime($this->request->getPost('fechanacimiento'))),
             'fechaingreso' => date('Y-m-d', strtotime($this->request->getPost('fechaingreso'))),
-            'fechafin' => date('Y-m-d', strtotime($this->request->getPost('fechafin'))),
-            // ...
+            'fechafin' => $fechafin,
+            'ubicacion' => $this->request->getPost('ubicacion'), // Cambiado para reflejar el nombre del campo en la base de datos
+            // Agrega otros campos según sea necesario
         ];
     
         try {
@@ -266,13 +276,15 @@ public function formulariopdf($id)
         }
     }
     
+    
+    
     public function editar_reporte()
     {
         
     
         $model = new Reportes();
         
-        $data['reportes'] = $model->orderBy('Idreporte', 'ASC')->findAll();
+        $data['reportes'] = $model->orderBy('apellido', 'ASC')->findAll();
         
         $data['titulo']="Lista editar";
         
@@ -311,6 +323,7 @@ public function guardar_edicion()
         $fechanacimiento = $this->request->getPost('fechanacimiento');
         $fechaingreso = $this->request->getPost('fechaingreso');
         $fechafin = $this->request->getPost('fechafin');
+        $ubicacion = $this->request->getPost('ubicacion');
 
         // Realizar validaciones adicionales si es necesario
 
@@ -323,6 +336,8 @@ public function guardar_edicion()
             'fechanacimiento' => $fechanacimiento,
             'fechaingreso' => $fechaingreso,
             'fechafin' => $fechafin,
+            'ubicacion' => $ubicacion,
+
         ]);
 
         // Redireccionar con un mensaje de éxito
