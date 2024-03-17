@@ -7,6 +7,7 @@
   <title>DNI Bolivia</title>
   <link rel="icon" type="image/png" href="<?php echo base_url('LogoDNI.png'); ?>" />  
 
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">

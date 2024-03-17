@@ -19,6 +19,7 @@ $routes->get('editarUser/(:num)', 'FormularioDeEditar::editarUsuario/$1');
 $routes->get('listaborrarusuarios', 'ListaBorrarUsuarios::index');
 $routes->get('listadesactivarusuarios','ListaDesactivarUsuarios::index');
 $routes->get('Reporte/documentos/(:num)', 'Reporte::documentos/$1');
+$routes->get('formulario_editar_oficina/(:num)', 'NombreDelControlador::formulario_editar_oficina/$1');
 
 
 

@@ -17,5 +17,15 @@ class Usuario extends Model
     $resultado = $builder->get();
     return $resultado->getRow(); // Utilizamos getRow() ya que esperamos un solo resultado
 }
+public function usuarios()
+{
+    return $this->belongsTo('App\Models\Usuario', 'id_usuario', 'Idusuario');
+}
+
+public function find($id = null)
+{
+    return $this->where('Idusuario', $id)->first();
+}
+
 }
 

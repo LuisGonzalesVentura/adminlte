@@ -4,6 +4,7 @@
 <?= $this->extend('Views/Dashboard/escritorio'); ?>
 
 <?= $this->section('contenido'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
@@ -44,40 +45,94 @@
                             <!-- En la vista documentos.php -->
 
                             <?php foreach ($reportes as $reporte): ?>
+                                
+
+                                <h2>Archivos de:  <?= $reporte->nombre . ' ' . $reporte->apellido. ' ' . $reporte->apellido_materno; ?></h2>
+    <tr>
+        <td><label>Acta de selección</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="acta_de_seleccion" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td><label>Informe exámen psicológico</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="informe_examen_psicologico" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
+        </td>
+    </tr>
+
     <tr>
         <td><label>Carnet de Identidad</label></td>
         <td>
-            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="carnetescaneado" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="carnetescaneado" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
         </td>
     </tr>
    
-         
+   
+    <tr>
+        <td><label>Certificado de antecedentes penales</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="certificado_de_antecedentes_penales" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
+        </td>
     </tr>
     <tr>
-        <td><label>Ingreso caja PDF</label></td>
+        <td><label>Certificado de No violencia</label></td>
         <td>
-            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="ingresocaja" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="certificado_de_no_violencia" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Currículum vite</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="curriculum_vitae" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Memorandum asignación del cargo</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="memorandum_asignacion_del_cargo" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
+        </td>
+    </tr>
+    
+    
+    <tr>
+        <td><label>Formulario parte ingreso CPS</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="ingresocaja" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
         </td>
         
     </tr>
     <tr>
-        <td><label>Contrato 1</label></td>
+        <td><label>Carnet asegurdo CPS</label></td>
         <td>
-            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="contrato1" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="carnet_de_asegurado_cps" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
         </td>
         
     </tr>
     <tr>
-        <td><label>Finiquito 1</label></td>
+        <td><label>Formulario aporte seguro a largo plazo</label></td>
         <td>
-            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="finiquito1" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="formulario_aporte_seguro_a_largo_plazo" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
         </td>
         
     </tr>
+  
+  
+    
     <tr>
-        <td><label>Retiro caja</label></td>
+        <td><label>Formulario desvinculación</label></td>
         <td>
-            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="retirocaja" data-report-id="<?= $reporte['Idreporte'] ?>">Ver PDF</a>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="formulario_de_desvinculacion" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
+        </td>
+        
+    </tr>
+
+    <tr>
+        <td><label>Certificado de trabajo</label></td>
+        <td>
+            <a href="javascript:void(0);" class="btn btn-primary verDocumentoBtn" data-document-type="certificado_trabajo" data-report-id="<?= $reporte->Idreporte ?>"><i class="ri-eye-fill"></i></a>
         </td>
         
     </tr>
@@ -90,11 +145,13 @@
                                 <!-- Add more rows for additional details if needed -->
                             </tbody>
                         </table>
+
+                        
                     </div>
                     <!-- /.card-body -->
 
                     <div class="card-footer">
-                        <?= anchor('Reporte/index', 'Regresar', ['class' => 'btn btn-primary']); ?>
+                        <?= anchor('Reporte/index', '<i class="ri-arrow-left-circle-fill"></i>', ['class' => 'btn btn-primary']); ?>
                     </div>
                 </div>
             </div>
@@ -115,37 +172,38 @@ $("#menureporte").addClass("menu-open");
         verDocumento(documentType, reportId);
     });
 });
-
 function verDocumento(documentType, reportId) {
-    console.log(reportId);  // Verifica el valor de reportId
-
-    // Verificar si reportId es null o no
     if (reportId !== null && reportId !== 'null') {
+        // Realizar una solicitud AJAX para obtener el nombre del PDF
         $.ajax({
-            type: "GET",
-            url: "<?php echo base_url('Reporte/getDocumento'); ?>",
+            url: "<?php echo base_url('Reporte/getDocumento') ?>",
+            type: "POST",
             data: { type: documentType, id: reportId },
             dataType: "json",
-            success: function (data) {
-                if (data.success) {
-                    // Crear un Blob a partir del contenido base64
-                    var blob = b64toBlob(data.pdfData, 'application/pdf');
-                    var blobUrl = URL.createObjectURL(blob);
+            success: function(response) {
+                if (response.success) {
+                    // Construir la URL con el nombre del PDF
+                    var pdfUrl = "<?php echo base_url('PDFs') ?>/" + response.pdfName;
 
-                    // Abrir la ventana nueva utilizando window.open
-                    window.open(blobUrl, '_blank');
+                    // Abrir el PDF en una nueva ventana
+                    window.open(pdfUrl, '_blank');
                 } else {
-                    alert("Error fetching PDF: " + data.message);
+                    alert(response.message);
                 }
             },
-            error: function () {
-                alert("Error fetching PDF");
+            error: function() {
+                alert("Error al obtener el documento.");
             }
         });
     } else {
         alert("Report ID is not available.");
     }
 }
+
+
+
+
+
 
 
 function b64toBlob(b64Data, contentType = '', sliceSize = 512) {
@@ -168,6 +226,34 @@ function b64toBlob(b64Data, contentType = '', sliceSize = 512) {
     return blob;
 }
 </script>
+
+<style>
+    /* Additional CSS styles for better visual appearance */
+    .card-title {
+        font-size: 1.5rem; /* Adjust font size as needed */
+    }
+
+    .table {
+        margin-bottom: 0; /* Remove the default bottom margin for the table */
+    }
+
+    .table td,
+    .table th {
+        padding: 1px; /* Adjust cell padding as needed */
+        font-size: 15px; /* Adjust font size as needed */
+    }
+
+    .table-condensed>thead>tr>th,
+    .table-condensed>tbody>tr>th,
+    .table-condensed>tfoot>tr>th,
+    .table-condensed>thead>tr>td,
+    .table-condensed>tbody>tr>td,
+    .table-condensed>tfoot>tr>td {
+        padding: 5px; /* Adjust padding for condensed table */
+    }
+</style>
+
+
 
 
 <?= $this->endSection(); ?>

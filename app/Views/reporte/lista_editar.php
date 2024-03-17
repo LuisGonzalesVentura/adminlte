@@ -43,6 +43,8 @@
                 <th>Apellido</th>
                 <th>Nombre</th>
                 <th>Carnet</th>
+                <th>Oficina</th>
+
                 <th>Acciones</th>
              
 
@@ -79,6 +81,8 @@
                     <td><?php echo $reporte['apellido']; ?></td>
                     <td><?php echo $reporte['nombre']; ?></td>
                     <td><?php echo $reporte['Ci']; ?></td>
+                    <td><?php echo $reporte['oficinas']; ?></td>
+
 
                 
                     <td>

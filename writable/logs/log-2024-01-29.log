@@ -1,0 +1,1904 @@
+INFO - 2024-01-29 15:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 15:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 15:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 15:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 15:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 15:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 15:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 15:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 15:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 15:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 16:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-29 17:41:03 --> mysqli_sql_exception: Column 'proyecto' cannot be null in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\adminlte\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xamppp\htdocs\adminlte\app\Controllers\Reporte.php(270): CodeIgniter\Model->insert(Array)
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#10 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-29 17:41:03 --> Column 'proyecto' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `reportes` (`nombre`, `apellido`, `apellido_materno`, `Ci`, `nua`, `fechaingreso`, `ubicacion`, `genero`, `tipo_contrato`, `cargo`, `oficinas`, `proyecto`, `motivo_conclusion`) VALUES (:nombre:, :apellido:, :apellido_materno:, :Ci:, :nua:, :fechaingreso:, :ubicacion:, :genero:, :tipo_contrato:, :cargo:, :oficinas:, :proyecto:, :motivo_conclusion:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reporte.php(270): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 17:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-29 17:49:42 --> mysqli_sql_exception: Column 'fechafin' cannot be null in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\adminlte\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xamppp\htdocs\adminlte\app\Controllers\Reporte.php(271): CodeIgniter\Model->insert(Array)
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#10 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-29 17:49:42 --> Column 'fechafin' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `reportes` (`nombre`, `apellido`, `apellido_materno`, `Ci`, `nua`, `fechaingreso`, `fechafin`, `ubicacion`, `genero`, `tipo_contrato`, `cargo`, `oficinas`, `proyecto`, `motivo_conclusion`) VALUES (:nombre:, :apellido:, :apellido_materno:, :Ci:, :nua:, :fechaingreso:, :fechafin:, :ubicacion:, :genero:, :tipo_contrato:, :cargo:, :oficinas:, :proyecto:, :motivo_conclusion:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reporte.php(271): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 17:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-29 17:49:52 --> mysqli_sql_exception: Column 'fechafin' cannot be null in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\adminlte\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xamppp\htdocs\adminlte\app\Controllers\Reporte.php(271): CodeIgniter\Model->insert(Array)
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#10 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-29 17:49:52 --> Column 'fechafin' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `reportes` (`nombre`, `apellido`, `apellido_materno`, `Ci`, `nua`, `fechaingreso`, `fechafin`, `ubicacion`, `genero`, `tipo_contrato`, `cargo`, `oficinas`, `proyecto`, `motivo_conclusion`) VALUES (:nombre:, :apellido:, :apellido_materno:, :Ci:, :nua:, :fechaingreso:, :fechafin:, :ubicacion:, :genero:, :tipo_contrato:, :cargo:, :oficinas:, :proyecto:, :motivo_conclusion:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reporte.php(271): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 17:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-29 17:52:49 --> mysqli_sql_exception: Column 'fechafin' cannot be null in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\adminlte\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xamppp\htdocs\adminlte\app\Controllers\Reporte.php(272): CodeIgniter\Model->insert(Array)
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#10 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-29 17:52:49 --> Column 'fechafin' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `reportes` (`nombre`, `apellido`, `apellido_materno`, `Ci`, `nua`, `fechaingreso`, `fechafin`, `ubicacion`, `genero`, `tipo_contrato`, `cargo`, `oficinas`, `proyecto`, `motivo_conclusion`) VALUES (:nombre:, :apellido:, :apellido_materno:, :Ci:, :nua:, :fechaingreso:, :fechafin:, :ubicacion:, :genero:, :tipo_contrato:, :cargo:, :oficinas:, :proyecto:, :motivo_conclusion:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reporte.php(272): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 17:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-29 17:58:55 --> mysqli_sql_exception: Column 'fechafin' cannot be null in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\adminlte\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xamppp\htdocs\adminlte\app\Controllers\Reporte.php(270): CodeIgniter\Model->insert(Array)
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#10 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-29 17:58:55 --> Column 'fechafin' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `reportes` (`nombre`, `apellido`, `apellido_materno`, `Ci`, `nua`, `fechaingreso`, `fechafin`, `ubicacion`, `genero`, `tipo_contrato`, `cargo`, `oficinas`, `proyecto`, `motivo_conclusion`) VALUES (:nombre:, :apellido:, :apellido_materno:, :Ci:, :nua:, :fechaingreso:, :fechafin:, :ubicacion:, :genero:, :tipo_contrato:, :cargo:, :oficinas:, :proyecto:, :motivo_conclusion:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reporte.php(270): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 17:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 17:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-29 17:59:09 --> mysqli_sql_exception: Column 'fechafin' cannot be null in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\adminlte\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xamppp\htdocs\adminlte\app\Controllers\Reporte.php(270): CodeIgniter\Model->insert(Array)
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#10 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-29 17:59:09 --> Column 'fechafin' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `reportes` (`nombre`, `apellido`, `apellido_materno`, `Ci`, `nua`, `fechaingreso`, `fechafin`, `ubicacion`, `genero`, `tipo_contrato`, `cargo`, `oficinas`, `proyecto`, `motivo_conclusion`) VALUES (:nombre:, :apellido:, :apellido_materno:, :Ci:, :nua:, :fechaingreso:, :fechafin:, :ubicacion:, :genero:, :tipo_contrato:, :cargo:, :oficinas:, :proyecto:, :motivo_conclusion:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reporte.php(270): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->guardar_reporte()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 18:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-29 18:09:08 --> Undefined array key "fechanacimiento"
+in APPPATH\Views\reporte\verreporte.php on line 67.
+ 1 APPPATH\Views\reporte\verreporte.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fechanacimiento"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\verreporte.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\verreporte.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reporte/verreporte', [], true)
+ 5 APPPATH\Controllers\Reporte.php(39): view('reporte/verreporte', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->ver('56')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 18:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-29 18:14:09 --> Undefined array key "fechanacimiento"
+in APPPATH\Views\reporte\verreporte.php on line 67.
+ 1 APPPATH\Views\reporte\verreporte.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fechanacimiento"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\verreporte.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\verreporte.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reporte/verreporte', [], true)
+ 5 APPPATH\Controllers\Reporte.php(39): view('reporte/verreporte', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->ver('55')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 18:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 18:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-29 19:33:26 --> Undefined variable $grupo
+in APPPATH\Views\reporte\subirpdf.php on line 88.
+ 1 APPPATH\Views\reporte\subirpdf.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $grupo', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\subirpdf.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\subirpdf.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reporte/subirpdf', [], true)
+ 5 APPPATH\Controllers\Reporte.php(179): view('reporte/subirpdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->subirPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 19:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 19:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-29 20:07:25 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Reporte.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->subirPDF(55)
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:16 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:16 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:16 --> Document Type: carnetescaneado
+INFO - 2024-01-29 20:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:20 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:20 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:20 --> Document Type: ingresocaja
+INFO - 2024-01-29 20:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:23 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:23 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:23 --> Document Type: contrato1
+INFO - 2024-01-29 20:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:25 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:25 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:25 --> Document Type: finiquito1
+INFO - 2024-01-29 20:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:28 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:28 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:28 --> Document Type: retirocaja
+INFO - 2024-01-29 20:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:30 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:30 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:30 --> Document Type: ingresocaja
+INFO - 2024-01-29 20:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:32 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:32 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:32 --> Document Type: carnetescaneado
+INFO - 2024-01-29 20:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:35 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:35 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:35 --> Document Type: contrato1
+INFO - 2024-01-29 20:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:37 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:37 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:37 --> Document Type: finiquito1
+INFO - 2024-01-29 20:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:17:40 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:17:40 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559335_12fd10bb37a986684232.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:17:40 --> Document Type: contrato1
+INFO - 2024-01-29 20:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:18:15 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:18:15 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:18:15 --> Document Type: contrato1
+INFO - 2024-01-29 20:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:25:55 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:25:55 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559335_47900b505e35c68fbc8f.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:25:55 --> Document Type: acta_de_seleccion
+INFO - 2024-01-29 20:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:26:15 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:26:15 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559971_7fee64603610bcd55981.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:26:15 --> Document Type: acta_de_seleccion
+INFO - 2024-01-29 20:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:32:50 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:32:50 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559971_7fee64603610bcd55981.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:32:50 --> Document Type: certificado_trabajo
+INFO - 2024-01-29 20:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:32:52 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:32:52 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559971_7fee64603610bcd55981.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:32:52 --> Document Type: formulario_de_desvinculacion
+INFO - 2024-01-29 20:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:32:54 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:32:54 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559971_7fee64603610bcd55981.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:32:54 --> Document Type: finiquito1
+INFO - 2024-01-29 20:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:32:57 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:32:57 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559971_7fee64603610bcd55981.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:32:57 --> Document Type: formulario_aporte_seguro_a_largo_plazo
+INFO - 2024-01-29 20:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:32:59 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:32:59 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559971_7fee64603610bcd55981.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:32:59 --> Document Type: carnet_de_asegurado_cps
+INFO - 2024-01-29 20:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:33:01 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:33:01 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559971_7fee64603610bcd55981.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:33:01 --> Document Type: ingresocaja
+INFO - 2024-01-29 20:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:33:03 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:33:03 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559971_7fee64603610bcd55981.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:33:03 --> Document Type: contrato1
+INFO - 2024-01-29 20:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:33:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:33:09 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706559971_7fee64603610bcd55981.pdf
+    [informe_examen_psicologico] => 1706559335_c9ee11f65f52ee7f5984.pdf
+    [certificado_de_antecedentes_penales] => 1706559335_ca2c5eff5ca469262145.pdf
+    [carnetescaneado] => 1706559335_afd1db968923a2b6a3c6.pdf
+    [certificado_de_no_violencia] => 1706559335_bffd03ef41832cf63223.pdf
+    [curriculum_vitae] => 1706559335_c895cb197d56da51db86.pdf
+    [memorandum_asignacion_del_cargo] => 1706559335_155cdd3a5e308cd3bce9.pdf
+    [ingresocaja] => 1706559335_42aee6ceb00d70fbbbec.pdf
+    [contrato1] => 1706559480_715a747f82fb5fb6d6c9.pdf
+    [carnet_de_asegurado_cps] => 1706559335_3b4223e1e1d883bdde25.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706559335_7e6729929decbc28a335.pdf
+    [finiquito1] => 1706559335_15f8e474f57a565b72b0.pdf
+    [formulario_de_desvinculacion] => 1706559335_1ffac87293b79d286738.pdf
+    [certificado_trabajo] => 1706559335_d7d093cfb09065a09916.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:33:09 --> Document Type: memorandum_asignacion_del_cargo
+INFO - 2024-01-29 20:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:04 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:04 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:04 --> Document Type: acta_de_seleccion
+INFO - 2024-01-29 20:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:08 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:08 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:08 --> Document Type: informe_examen_psicologico
+INFO - 2024-01-29 20:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:10 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:10 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:10 --> Document Type: carnetescaneado
+INFO - 2024-01-29 20:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:13 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:13 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:13 --> Document Type: certificado_de_antecedentes_penales
+INFO - 2024-01-29 20:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:15 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:15 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:15 --> Document Type: certificado_de_no_violencia
+INFO - 2024-01-29 20:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:17 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:17 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:17 --> Document Type: curriculum_vitae
+INFO - 2024-01-29 20:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:19 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:19 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:19 --> Document Type: memorandum_asignacion_del_cargo
+INFO - 2024-01-29 20:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:22 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:22 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:22 --> Document Type: contrato1
+INFO - 2024-01-29 20:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:24 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:24 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:24 --> Document Type: ingresocaja
+INFO - 2024-01-29 20:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:26 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:26 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:26 --> Document Type: carnet_de_asegurado_cps
+INFO - 2024-01-29 20:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:29 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:29 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:29 --> Document Type: formulario_aporte_seguro_a_largo_plazo
+INFO - 2024-01-29 20:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:32 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:32 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:32 --> Document Type: finiquito1
+INFO - 2024-01-29 20:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:34 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:34 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:34 --> Document Type: formulario_de_desvinculacion
+INFO - 2024-01-29 20:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:36:37 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:36:37 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:36:37 --> Document Type: certificado_trabajo
+INFO - 2024-01-29 20:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-29 20:43:49 --> Undefined variable $report
+in APPPATH\Views\reporte\documentos.php on line 49.
+ 1 APPPATH\Views\reporte\documentos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reporte/documentos', [], true)
+ 5 APPPATH\Controllers\Reporte.php(50): view('reporte/documentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->documentos('55')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-29 20:43:53 --> Undefined variable $report
+in APPPATH\Views\reporte\documentos.php on line 49.
+ 1 APPPATH\Views\reporte\documentos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\reporte\\documentos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reporte/documentos', [], true)
+ 5 APPPATH\Controllers\Reporte.php(50): view('reporte/documentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->documentos('55')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-29 20:46:02 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Reporte.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reporte->getDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-29 20:46:02 --> Report Array: Array
+(
+    [Idreporte] => 55
+    [apellido] => gonzales
+    [apellido_materno] => ventura
+    [nombre] => luis florencio
+    [Ci] => 87660870
+    [cargo] => ingeniero de sistemas
+    [nua] => 4545kk
+    [fechaingreso] => 2024-01-21
+    [fechafin] => 2024-01-04
+    [genero] => Masculino
+    [tipo_contrato] => Plazo fijo
+    [motivo_conclusion] => No retirado
+    [oficinas] => Fondo Patrimonial
+    [proyecto] => proyecto genesis
+    [acta_de_seleccion] => 1706560555_2503b556c46fda3a8f03.pdf
+    [informe_examen_psicologico] => 1706560555_47fb013b5b5307db50f4.pdf
+    [certificado_de_antecedentes_penales] => 1706560555_8fbdf328e20918c3eb5d.pdf
+    [carnetescaneado] => 1706560555_3b07450a48ef7e55e107.pdf
+    [certificado_de_no_violencia] => 1706560555_01d8e48e14efa40e0434.pdf
+    [curriculum_vitae] => 1706560555_732624d1a9ca1ce71d24.pdf
+    [memorandum_asignacion_del_cargo] => 1706560555_ee887cb6a2c59dedd07d.pdf
+    [ingresocaja] => 1706560555_73ca07c26a57d1443e06.pdf
+    [contrato1] => 1706560555_9d1c65f064a261b2bf11.pdf
+    [carnet_de_asegurado_cps] => 1706560555_a732685f005021ae4da6.pdf
+    [formulario_aporte_seguro_a_largo_plazo] => 1706560555_0c87e3cc2546be9ff06b.pdf
+    [finiquito1] => 1706560555_8ce05860b8214be494aa.pdf
+    [formulario_de_desvinculacion] => 1706560555_e140d261e136cf380939.pdf
+    [certificado_trabajo] => 1706560555_acdb372d7c45c812ddba.pdf
+    [ubicacion] => ubicado en el gabete  3-dsds
+)
+
+INFO - 2024-01-29 20:46:02 --> Document Type: carnetescaneado
+INFO - 2024-01-29 20:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 20:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

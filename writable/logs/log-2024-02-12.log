@@ -1,0 +1,1510 @@
+INFO - 2024-02-12 14:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 14:52:23 --> Invalid file: "contratos/listar_contratos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contratos/listar_contratos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/listar_contratos', [], true)
+ 3 APPPATH\Controllers\contrato.php(93): view('contratos/listar_contratos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 14:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 14:53:13 --> Invalid file: "contratos/listar_contratos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contratos/listar_contratos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/listar_contratos', [], true)
+ 3 APPPATH\Controllers\contrato.php(93): view('contratos/listar_contratos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 14:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 14:53:16 --> Invalid file: "contratos/listar_contratos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contratos/listar_contratos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/listar_contratos', [], true)
+ 3 APPPATH\Controllers\contrato.php(93): view('contratos/listar_contratos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 14:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 14:54:30 --> Attempt to read property "id_contrato" on array
+in APPPATH\Views\contratos\lista_contratos.php on line 82.
+ 1 APPPATH\Views\contratos\lista_contratos.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_contrato" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 82)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(93): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 14:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 14:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 14:59:48 --> Undefined array key "nombre_trabajador"
+in APPPATH\Views\contratos\lista_contratos.php on line 83.
+ 1 APPPATH\Views\contratos\lista_contratos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_trabajador"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(110): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:05:26 --> Undefined array key "nombre_trabajador"
+in APPPATH\Views\contratos\lista_contratos.php on line 83.
+ 1 APPPATH\Views\contratos\lista_contratos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_trabajador"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(115): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:06:38 --> Undefined array key "nombre_trabajador"
+in APPPATH\Views\contratos\lista_contratos.php on line 83.
+ 1 APPPATH\Views\contratos\lista_contratos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_trabajador"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(115): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:06:41 --> Undefined array key "nombre_trabajador"
+in APPPATH\Views\contratos\lista_contratos.php on line 83.
+ 1 APPPATH\Views\contratos\lista_contratos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_trabajador"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(115): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:06:46 --> Undefined array key "nombre_trabajador"
+in APPPATH\Views\contratos\lista_contratos.php on line 83.
+ 1 APPPATH\Views\contratos\lista_contratos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_trabajador"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(115): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:10:25 --> Class "App\Controllers\TipoContratoModel" not found
+in APPPATH\Controllers\contrato.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:16:02 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\contrato.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:16:38 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:17:44 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:19:40 --> Undefined array key "Idusuario"
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idusuario"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:19:47 --> Undefined array key "Idusuario"
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idusuario"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:21:26 --> Undefined array key "Idusuario"
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idusuario"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:22:39 --> Undefined array key "Idusuario"
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idusuario"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:22:42 --> Undefined array key "Idusuario"
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idusuario"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:22:42 --> Undefined array key "Idusuario"
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idusuario"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:22:45 --> Undefined array key "Idusuario"
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Idusuario"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:25:41 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:25:42 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:25:43 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:25:43 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:28:35 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:28:39 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:30:32 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:30:34 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:31:47 --> Class "App\Models\Usurario" not found
+in APPPATH\Controllers\contrato.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:31:49 --> Class "App\Models\Usurario" not found
+in APPPATH\Controllers\contrato.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:32:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+in APPPATH\Models\Usuario.php on line 28.
+ 1 APPPATH\Controllers\contrato.php(112): App\Models\Usuario->find('1')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:38:25 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:38:44 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:39:59 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:40:00 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:40:04 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:48:40 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 116.
+ 1 APPPATH\Controllers\contrato.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:49:56 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 117.
+ 1 APPPATH\Controllers\contrato.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:50:20 --> Attempt to read property "nombres" on array
+in APPPATH\Controllers\contrato.php on line 117.
+ 1 APPPATH\Controllers\contrato.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombres" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 15:50:21 --> Attempt to read property "nombres" on array
+in APPPATH\Controllers\contrato.php on line 117.
+ 1 APPPATH\Controllers\contrato.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombres" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 15:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 15:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:04:58 --> Undefined variable $usuarioCreador
+in APPPATH\Controllers\contrato.php on line 112.
+ 1 APPPATH\Controllers\contrato.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCreador', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:19:27 --> Undefined array key "obtenerNombreUsuarioCreador()"
+in APPPATH\Views\contratos\lista_contratos.php on line 88.
+ 1 APPPATH\Views\contratos\lista_contratos.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "obtenerNombreUsuarioCreador()"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(128): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:24:03 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 117.
+ 1 APPPATH\Controllers\contrato.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:24:32 --> Attempt to read property "email" on array
+in APPPATH\Controllers\contrato.php on line 117.
+ 1 APPPATH\Controllers\contrato.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:24:33 --> Attempt to read property "email" on array
+in APPPATH\Controllers\contrato.php on line 117.
+ 1 APPPATH\Controllers\contrato.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:26:16 --> Undefined array key "nombre_usuario_creator_c"
+in APPPATH\Views\contratos\lista_contratos.php on line 88.
+ 1 APPPATH\Views\contratos\lista_contratos.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_usuario_creator_c"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(128): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:30:47 --> Attempt to read property "nombre" on array
+in APPPATH\Models\ContratoModel.php on line 36.
+ 1 APPPATH\Models\ContratoModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Models\\ContratoModel.php', 36)
+ 2 APPPATH\Controllers\contrato.php(112): App\Models\ContratoModel->obtenerNombreUsuarioCreador('1')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:32:01 --> Attempt to read property "nombre" on array
+in APPPATH\Models\ContratoModel.php on line 35.
+ 1 APPPATH\Models\ContratoModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Models\\ContratoModel.php', 35)
+ 2 APPPATH\Controllers\contrato.php(112): App\Models\ContratoModel->obtenerNombreUsuarioCreador('1')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:32:02 --> Attempt to read property "nombre" on array
+in APPPATH\Models\ContratoModel.php on line 35.
+ 1 APPPATH\Models\ContratoModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Models\\ContratoModel.php', 35)
+ 2 APPPATH\Controllers\contrato.php(112): App\Models\ContratoModel->obtenerNombreUsuarioCreador('1')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:35:50 --> Attempt to read property "nombre" on array
+in APPPATH\Views\contratos\lista_contratos.php on line 89.
+ 1 APPPATH\Views\contratos\lista_contratos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:36:58 --> Undefined variable $contratoModel
+in APPPATH\Views\contratos\lista_contratos.php on line 91.
+ 1 APPPATH\Views\contratos\lista_contratos.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contratoModel', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:37:00 --> Undefined variable $contratoModel
+in APPPATH\Views\contratos\lista_contratos.php on line 91.
+ 1 APPPATH\Views\contratos\lista_contratos.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contratoModel', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:42:11 --> Undefined variable $contratoModel
+in APPPATH\Views\contratos\lista_contratos.php on line 91.
+ 1 APPPATH\Views\contratos\lista_contratos.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contratoModel', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(128): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:42:12 --> Undefined variable $contratoModel
+in APPPATH\Views\contratos\lista_contratos.php on line 91.
+ 1 APPPATH\Views\contratos\lista_contratos.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contratoModel', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(128): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:42:17 --> Undefined variable $contratoModel
+in APPPATH\Views\contratos\lista_contratos.php on line 91.
+ 1 APPPATH\Views\contratos\lista_contratos.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contratoModel', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(128): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 16:42:57 --> Undefined variable $contratoModel
+in APPPATH\Views\contratos\lista_contratos.php on line 91.
+ 1 APPPATH\Views\contratos\lista_contratos.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contratoModel', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(128): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 16:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 16:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:13:03 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:13:21 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 97.
+ 1 APPPATH\Controllers\contrato.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:13:25 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 97.
+ 1 APPPATH\Controllers\contrato.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:13:52 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 97.
+ 1 APPPATH\Controllers\contrato.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-12 20:15:25 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xamppp\htdocs\adminlte\app\Models\Usuario.php(23): CodeIgniter\BaseModel->first()
+#7 C:\xamppp\htdocs\adminlte\app\Controllers\contrato.php(96): App\Models\Usuario->find('1')
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+#10 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-12 20:15:25 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\Usuario.php(23): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\contrato.php(96): App\Models\Usuario->find('1')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:15:50 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 97.
+ 1 APPPATH\Controllers\contrato.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:16:26 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 97.
+ 1 APPPATH\Controllers\contrato.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:18:41 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 100.
+ 1 APPPATH\Controllers\contrato.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:18:42 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 100.
+ 1 APPPATH\Controllers\contrato.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:18:47 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 100.
+ 1 APPPATH\Controllers\contrato.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-12 20:21:57 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xamppp\htdocs\adminlte\app\Models\Usuario.php(23): CodeIgniter\BaseModel->first()
+#7 C:\xamppp\htdocs\adminlte\app\Controllers\contrato.php(97): App\Models\Usuario->find(Array)
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+#10 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-12 20:21:57 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `Idusuario` = :Idusuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\Usuario.php(23): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\contrato.php(97): App\Models\Usuario->find([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-12 20:22:55 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\adminlte\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamppp\htdocs\adminlte\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamppp\htdocs\adminlte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\adminlte\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\adminlte\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xamppp\htdocs\adminlte\app\Models\Usuario.php(23): CodeIgniter\BaseModel->first()
+#7 C:\xamppp\htdocs\adminlte\app\Controllers\contrato.php(97): App\Models\Usuario->find(Array)
+#8 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+#9 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+#10 C:\xamppp\htdocs\adminlte\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\adminlte\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-12 20:22:55 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `Idusuario` = :Idusuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\Usuario.php(23): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\contrato.php(97): App\Models\Usuario->find([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:23:38 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:23:39 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 APPPATH\Controllers\contrato.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:30:46 --> Undefined array key "nombre_trabajador"
+in APPPATH\Views\contratos\lista_contratos.php on line 83.
+ 1 APPPATH\Views\contratos\lista_contratos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_trabajador"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:31:17 --> Undefined array key "usuario_creator"
+in APPPATH\Views\contratos\lista_contratos.php on line 87.
+ 1 APPPATH\Views\contratos\lista_contratos.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario_creator"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:31:32 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 87.
+ 1 APPPATH\Views\contratos\lista_contratos.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:31:33 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 87.
+ 1 APPPATH\Views\contratos\lista_contratos.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:37:22 --> Undefined array key "usuarioCreator"
+in APPPATH\Views\contratos\lista_contratos.php on line 93.
+ 1 APPPATH\Views\contratos\lista_contratos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarioCreator"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 93)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:37:56 --> Undefined array key "usuarioCreator"
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarioCreator"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:37:57 --> Undefined array key "usuarioCreator"
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarioCreator"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:38:05 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:38:06 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:38:07 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:38:07 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:39:11 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(91): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:39:12 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(91): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:39:13 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(91): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:39:37 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(91): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:39:38 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(91): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:40:10 --> Call to undefined method App\Models\ContratoModel::getUsuarioCreator
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(94): CodeIgniter\Model->__call('getUsuarioCreator', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:40:11 --> Call to undefined method App\Models\ContratoModel::getUsuarioCreator
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(94): CodeIgniter\Model->__call('getUsuarioCreator', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:43:04 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:43:06 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(96): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:43:38 --> Attempt to read property "usuarioCreator" on array
+in APPPATH\Controllers\contrato.php on line 94.
+ 1 APPPATH\Controllers\contrato.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "usuarioCreator" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:43:39 --> Attempt to read property "usuarioCreator" on array
+in APPPATH\Controllers\contrato.php on line 94.
+ 1 APPPATH\Controllers\contrato.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "usuarioCreator" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:43:40 --> Attempt to read property "usuarioCreator" on array
+in APPPATH\Controllers\contrato.php on line 94.
+ 1 APPPATH\Controllers\contrato.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "usuarioCreator" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:44:32 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(95): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:44:33 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(95): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:45:28 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(90): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:45:29 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(90): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:45:49 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(90): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:45:49 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\contrato.php(90): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:46:09 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:46:10 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:46:30 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 87.
+ 1 APPPATH\Views\contratos\lista_contratos.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:46:31 --> Attempt to read property "nombre" on string
+in APPPATH\Views\contratos\lista_contratos.php on line 87.
+ 1 APPPATH\Views\contratos\lista_contratos.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:53:06 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\ContratoModel.php(31): CodeIgniter\Model->__call('with', [...])
+ 2 APPPATH\Controllers\contrato.php(112): App\Models\ContratoModel->obtenerNombreUsuarioCreador('8')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:53:43 --> Call to undefined method App\Models\ContratoModel::belongsTo
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\ContratoModel.php(25): CodeIgniter\Model->__call('belongsTo', [...])
+ 2 APPPATH\Controllers\contrato.php(116): App\Models\ContratoModel->usuarioCreator()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:53:44 --> Call to undefined method App\Models\ContratoModel::belongsTo
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\ContratoModel.php(25): CodeIgniter\Model->__call('belongsTo', [...])
+ 2 APPPATH\Controllers\contrato.php(116): App\Models\ContratoModel->usuarioCreator()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:53:57 --> Call to undefined method App\Models\ContratoModel::with
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\ContratoModel.php(31): CodeIgniter\Model->__call('with', [...])
+ 2 APPPATH\Controllers\contrato.php(112): App\Models\ContratoModel->obtenerNombreUsuarioCreador('8')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:55:23 --> Call to a member function usuarioCreator() on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:55:24 --> Call to a member function usuarioCreator() on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:55:25 --> Call to a member function usuarioCreator() on array
+in APPPATH\Controllers\contrato.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:55:55 --> Call to undefined method App\Models\ContratoModel::belongsTo
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\ContratoModel.php(25): CodeIgniter\Model->__call('belongsTo', [...])
+ 2 APPPATH\Controllers\contrato.php(117): App\Models\ContratoModel->usuarioCreator()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:55:55 --> Call to undefined method App\Models\ContratoModel::belongsTo
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\ContratoModel.php(25): CodeIgniter\Model->__call('belongsTo', [...])
+ 2 APPPATH\Controllers\contrato.php(117): App\Models\ContratoModel->usuarioCreator()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:56:52 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:56:53 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 114.
+ 1 APPPATH\Controllers\contrato.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:57:58 --> Undefined array key "nombre"
+in APPPATH\Views\contratos\lista_contratos.php on line 88.
+ 1 APPPATH\Views\contratos\lista_contratos.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 20:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:58:55 --> Undefined variable $oficina
+in APPPATH\Views\contratos\lista_contratos.php on line 93.
+ 1 APPPATH\Views\contratos\lista_contratos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $oficina', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 93)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:59:47 --> Undefined variable $oficina
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $oficina', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 20:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 20:59:48 --> Undefined variable $oficina
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $oficina', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:00:05 --> Undefined array key "id"
+in APPPATH\Views\contratos\lista_contratos.php on line 94.
+ 1 APPPATH\Views\contratos\lista_contratos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:27:10 --> Attempt to read property "nombre" on array
+in APPPATH\Views\contratos\lista_contratos.php on line 89.
+ 1 APPPATH\Views\contratos\lista_contratos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(129): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:29:14 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 110.
+ 1 APPPATH\Controllers\contrato.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:29:15 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 110.
+ 1 APPPATH\Controllers\contrato.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:30:34 --> Attempt to read property "nombre" on array
+in APPPATH\Views\contratos\lista_contratos.php on line 89.
+ 1 APPPATH\Views\contratos\lista_contratos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(129): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:30:35 --> Attempt to read property "nombre" on array
+in APPPATH\Views\contratos\lista_contratos.php on line 89.
+ 1 APPPATH\Views\contratos\lista_contratos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(129): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:30:36 --> Attempt to read property "nombre" on array
+in APPPATH\Views\contratos\lista_contratos.php on line 89.
+ 1 APPPATH\Views\contratos\lista_contratos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(129): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:31:17 --> Attempt to read property "nombre" on array
+in APPPATH\Views\contratos\lista_contratos.php on line 89.
+ 1 APPPATH\Views\contratos\lista_contratos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(129): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:31:47 --> Undefined array key "nombre"
+in APPPATH\Views\contratos\lista_contratos.php on line 89.
+ 1 APPPATH\Views\contratos\lista_contratos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(129): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:31:48 --> Undefined array key "nombre"
+in APPPATH\Views\contratos\lista_contratos.php on line 89.
+ 1 APPPATH\Views\contratos\lista_contratos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(129): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:32:54 --> Undefined variable $contrato
+in APPPATH\Controllers\contrato.php on line 99.
+ 1 APPPATH\Controllers\contrato.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contrato', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 21:34:20 --> syntax error, unexpected identifier "de"
+in APPPATH\Controllers\contrato.php on line 108.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('contrato/listarContratos', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('contrato/listarContratos')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('contrato/listarContratos')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 21:34:28 --> syntax error, unexpected identifier "de"
+in APPPATH\Controllers\contrato.php on line 109.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('contrato/listarContratos', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('contrato/listarContratos')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('contrato/listarContratos')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 21:34:29 --> syntax error, unexpected identifier "de"
+in APPPATH\Controllers\contrato.php on line 109.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('contrato/listarContratos', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('contrato/listarContratos')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('contrato/listarContratos')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:35:10 --> Undefined array key "nombre"
+in APPPATH\Views\contratos\lista_contratos.php on line 89.
+ 1 APPPATH\Views\contratos\lista_contratos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\adminlte\\app\\Views\\contratos\\lista_contratos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 5 APPPATH\Controllers\contrato.php(123): view('contratos/lista_contratos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:36:39 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\contrato.php on line 117.
+ 1 APPPATH\Controllers\contrato.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xamppp\\htdocs\\adminlte\\app\\Controllers\\contrato.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 21:37:56 --> Unclosed '{' on line 13
+in APPPATH\Controllers\contrato.php on line 136.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('contrato/listarContratos', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('contrato/listarContratos')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('contrato/listarContratos')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 21:47:13 --> syntax error, unexpected end of file, expecting identifier or variable or "{" or "$"
+in APPPATH\Views\contratos\lista_contratos.php on line 131.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('contratos/lista_contratos', [], true)
+ 3 APPPATH\Controllers\contrato.php(129): view('contratos/lista_contratos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\contrato->listarContratos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 21:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 21:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

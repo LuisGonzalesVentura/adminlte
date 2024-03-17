@@ -1,11 +1,11 @@
+<!-- Add Bootstrap CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
 <?= $this->extend('Views/Dashboard/escritorio'); ?>
 
-
 <?= $this->section('contenido'); ?>
 
-  <link rel="icon" type="image/png" href="LogoDNI.png" />
+<link rel="icon" type="image/png" href="LogoDNI.png" />
 
 <!-- Content Header (Page header) -->
 <section class="content-header">
@@ -24,86 +24,73 @@
   </div><!-- /.container-fluid -->
 </section>
 
-
-<!-- Main content -->
 <section class="content">
   <!-- Main content -->
   
-  <section class="content">
-    <div class="container-fluid">
-      <div class="row">
-        <!-- left column -->
-        <div class="col-md-12">
-    <table id="tablaReportes"  class="table table-light">
-      
+  <div class="container mt-4">
+    <div class="form-inline mb-3">
+        <!-- Barra de búsqueda -->
+        <div class="input-group" data-widget="sidebar-search">
+            <input class="form-control form-control-sidebar" id="searchInput" type="search" placeholder="Buscar" aria-label="Buscar">
+            <div class="input-group-append">
+                <button class="btn btn-sidebar" id="searchButton">
+                    <i class="fas fa-search fa-fw"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Botón de Lista -->
+        <div class="card-footer ml-auto">
+            <?= anchor('Reporte/index', '<i class="ri-list-check"></i>', ['class' => 'btn btn-primary']); ?>
+        </div>
+    </div>
+
+    <!-- Tabla de reportes -->
+    <table id="tablaReportes" class="table table-striped">
         <thead class="thead-light">
             <tr>
-            <th>#</th>
-
-                <th>Apellido</th>
-                <th>Nombre</th>
-                <th>Carnet</th>
-                <th>Acciones</th>
-   
-
+                <th>#</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th>Nombre(s)</th>
+                <th>Nº Carnet</th>
+                <th>Oficina</th>
+                <th>Tipo</th>
+                <th>Subir PDF</th>
             </tr>
         </thead>
         <tbody>
-          
-      <!-- SidebarSearch Form -->
-      <div class="form-inline">
-    <div class="input-group" data-widget="sidebar-search">
-        <input class="form-control form-control-sidebar" id="searchInput" type="search" placeholder="Search" aria-label="Search">
-        <div class="input-group-append">
-            <button class="btn btn-sidebar" id="searchButton">
-                <i class="fas fa-search fa-fw"></i>
-            </button>
-        </div>
-    </div>
-    
-    <div class="card-footer">
-                                
-                                <?= anchor('Reporte/subirpdf', 'Lista', ['class' => 'btn btn-primary']); ?>
-
-                            </div>
-</div>
-      </div>
             <?php
-                    $contador = 1; // Asegúrate de inicializar $contador antes del bucle foreach
-                    foreach ($reportes as $reporte) : ?>
+            $contador = 1;
+            $grupo = "En planillas";
+
+            foreach ($reportes as $reporte) :
+            ?>
                 <tr>
-                <td><?php echo $contador; ?></td>
-
-                    <td><?php echo $reporte['apellido']; ?></td>
-                    <td><?php echo $reporte['nombre']; ?></td>
-                    <td><?php echo $reporte['Ci']; ?></td>
-
-                
+                    <td><?= $contador; ?></td>
+                    <td><?= $reporte->apellido; ?></td>
+                    <td><?= $reporte->apellido_materno; ?></td>
+                    <td><?= $reporte->nombre; ?></td>
+                    <td><?= $reporte->Ci; ?></td>
+                    <td><?= $reporte->nombre_oficina ?? 'N/A'; ?></td>
+                    <td><?= $grupo; ?></td>
                     <td>
-                    <a href="<?php echo 'formulariopdf/'.$reporte['Idreporte']?>" class="btn btn-success" type="button">subirPDFs</a>
+                        <a href="<?= 'formulariopdf/'.$reporte->Idreporte?>" class="btn btn-success" type="button"><i class="ri-file-upload-fill"></i></a>
                     </td>
-
-                   
                 </tr>
                 <?php $contador++; ?>
-
-<?php endforeach; ?>
-<strong>Total:</strong> <?php echo $contador - 1; ?> Reportes
+            <?php endforeach; ?>
+            <tr>
+                <td colspan="8"><strong>Total:</strong> <?= $contador - 1; ?></td>
+            </tr>
         </tbody>
     </table>
-</div>
+  </div>
 
-
-
-      </div>
-    </div>
-  </section>
-
-  <!-- /.content -->
-  
-<script type="text/javascript">
+  <script type="text/javascript">
     $(document).ready(function () {
-       
+        $("#menureporte").addClass("menu-open");
+        $("#PDFs").addClass("active");
 
         // Agrega un evento al botón de búsqueda
         $("#searchButton").on("click", function () {
@@ -129,11 +116,9 @@
             return false;
         });
     });
-</script>
-
-  <script type="text/javascript">
-    $("#menureporte").addClass("menu-open");
-    $("#PDFs").addClass("active");
   </script>
 
-  <?= $this->endSection(); ?>
+</section>
+<!-- /.content -->
+
+<?= $this->endSection(); ?>

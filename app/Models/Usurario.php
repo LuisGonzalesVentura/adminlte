@@ -24,4 +24,7 @@ class Usuario extends Model{
        $resultado=$builder->get();
        return $resultado->getResult() ? $resultado->getResult()[0]:false;
     }
+
+    // En el modelo Usuario, ajusta el método find() para que devuelva un objeto en lugar de un array
+
 }

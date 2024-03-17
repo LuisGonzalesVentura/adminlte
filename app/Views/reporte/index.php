@@ -29,73 +29,83 @@
 <section class="content">
   <!-- Main content -->
   
-  <section class="content">
-    <div class="container-fluid">
-      <div class="row">
-        <!-- left column -->
-        <div class="col-md-12">
-    <table id="tablaReportes"  class="table table-light">
-      
+  <div class="container mt-4">
+    <div class="form-inline mb-3">
+        <!-- Barra de búsqueda -->
+        <div class="input-group" data-widget="sidebar-search">
+            <input class="form-control form-control-sidebar" id="searchInput" type="search" placeholder="Buscar" aria-label="Buscar">
+            <div class="input-group-append">
+                <button class="btn btn-sidebar" id="searchButton">
+                    <i class="fas fa-search fa-fw"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Botón de Lista -->
+        <div class="card-footer ml-auto">
+            <?= anchor('Reporte/index', '<i class="ri-list-check"></i>', ['class' => 'btn btn-primary']); ?>
+        </div>
+    </div>
+
+    <!-- Tabla de reportes -->
+    <table id="tablaReportes" class="table table-striped">
         <thead class="thead-light">
             <tr>
-
                 <th>#</th>
-                <th>Apellido</th>
-                <th>Nombre</th>
-                <th>Carnet</th>
-                <th>Acciones</th>
-                <th>Acciones</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th>Nombre(s)</th>
+                <th>Nº Carnet</th>
+                <th>Oficina</th>
+                <th>Tipo</th>
+                <th>Informacion</th>
+                <th>Documento</th>
+                <th>Contrato</th>
+                <th>Finiquito</th>
+                <th>Editar</th>
 
             </tr>
         </thead>
         <tbody>
-          
-      <!-- SidebarSearch Form -->
-      <div class="form-inline">
-    <div class="input-group" data-widget="sidebar-search">
-        <input class="form-control form-control-sidebar" id="searchInput" type="search" placeholder="Search" aria-label="Search">
-        <div class="input-group-append">
-            <button class="btn btn-sidebar" id="searchButton">
-                <i class="fas fa-search fa-fw"></i>
-            </button>
-        </div>
-    </div>
-    
-    <div class="card-footer">
-    <div>
-        <?= anchor('Reporte/index', 'Lista', ['class' => 'btn btn-primary']); ?>
-    </div>
-   
-                            </div>
-                            
-</div>
-                            </div>
-</div>
+            <?php
+            $contador = 1;
+            $grupo = "En planillas";
 
-      </div>
-      
-      <?php
-        $contador = 1; // Asegúrate de inicializar $contador antes del bucle foreach
-        foreach ($reportes as $reporte) :
-        ?>
+            foreach ($reportes as $reporte) :
+            ?>
+                <tr>
+                    <td><?php echo $contador; ?></td>
+                    <td><?php echo $reporte->apellido; ?></td>
+                    <td><?php echo $reporte->apellido_materno; ?></td>
+                    <td><?php echo $reporte->nombre; ?></td>
+                    <td><?php echo $reporte->Ci; ?></td>
+                    <td><?php echo $reporte->nombre_oficina ?? 'N/A'; ?></td>
+                    <td><?php echo $grupo; ?></td>
+                    <td>
+                        <a href="<?php echo 'ver/' . $reporte->Idreporte ?>" class="btn btn-success" type="button"><i class="ri-file-info-line"></i></a>
+                    </td>
+                    <td>
+                        <a href="<?php echo 'documentos/' . $reporte->Idreporte ?>" class="btn btn-success" type="button"><i class="ri-folder-unknow-fill"></i></i></a>
+                    </td>
+                    <td>
+                        <a href="<?php echo 'contratos/' . $reporte->Idreporte ?>" class="btn btn-primary" type="button"><i class="ri-article-fill"></i></a>
+                    </td>
+                    <td>
+                        <a href="<?php echo 'finiquitos/' . $reporte->Idreporte ?>" class="btn btn-primary" type="button"><i class="ri-file-copy-2-fill"></i></a>
+                    </td>
+                    <td>
+                        <a href="<?php echo 'formulario_editar_reporte/'.$reporte->Idreporte?>" class="btn btn-success" type="button"><i class="ri-pencil-line"></i></a>
+                    </td>   
+                </tr>
+                <?php $contador++; ?>
+            <?php endforeach; ?>
             <tr>
-                <td><?php echo $contador; ?></td>
-                <td><?php echo $reporte['apellido']; ?></td>
-                <td><?php echo $reporte['nombre']; ?></td>
-                <td><?php echo $reporte['Ci']; ?></td>
-                <td>
-                    <a href="<?php echo 'ver/' . $reporte['Idreporte'] ?>" class="btn btn-success" type="button">Ver Informacion</a>
-                </td>
-                <td>
-                    <a href="<?php echo 'documentos/' . $reporte['Idreporte'] ?>" class="btn btn-success" type="button">Documentos</a>
-                </td>
+                <td colspan="8"><strong>Total:</strong> <?= $contador - 1; ?></td>
             </tr>
-            <?php $contador++; ?>
-        <?php endforeach; ?>
-        <strong>Total:</strong> <?php echo $contador - 1; ?> Reportes
         </tbody>
     </table>
 </div>
+
 <script type="text/javascript">
     $(document).ready(function () {
         $("#menureporte").addClass("menu-open");
@@ -129,12 +139,14 @@
 
 
 
-      </div>
-    </div>
+      
+  
   </section>
 
   <!-- /.content -->
   <script type="text/javascript">
+     $("#menureporte").addClass("menu-open");
+    $("#reportelista").addClass("active");
     $(document).ready(function () {
         // Obtén todas las filas de la tabla
         var filas = $("#tablaReportes tbody tr");
@@ -152,8 +164,5 @@
         });
     });
 </script>
-  <script type="text/javascript">
-    $("#menureporte").addClass("menu-open");
-    $("#reportelista").addClass("active");
-  </script>
-  <?= $this->endSection(); ?>
+
+<?= $this->endSection(); ?>

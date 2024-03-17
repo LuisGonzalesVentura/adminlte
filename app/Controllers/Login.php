@@ -21,6 +21,7 @@ class Login extends BaseController
         if ($user) {
             if (password_verify($_POST['clave'], $user->clave)) {
                 $data = [
+                    "Idusuario" => $user->Idusuario,
                     "usuarios" => $user->nombre . ' ' . $user->apellido,
                     "foto" => $user->foto,
                     "rol" => $user->rol
