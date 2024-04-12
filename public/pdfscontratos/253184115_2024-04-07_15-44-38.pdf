@@ -1,0 +1,38 @@
+{
+    "title": "CodeIgniter\\Exceptions\\PageNotFoundException",
+    "type": "CodeIgniter\\Exceptions\\PageNotFoundException",
+    "code": 404,
+    "message": "Controller or its method is not found: \\App\\Controllers\\Public::pdfscontratos",
+    "file": "C:\\xamppp\\htdocs\\adminlte\\system\\CodeIgniter.php",
+    "line": 967,
+    "trace": [
+        {
+            "file": "C:\\xamppp\\htdocs\\adminlte\\system\\CodeIgniter.php",
+            "line": 967,
+            "function": "forPageNotFound",
+            "class": "CodeIgniter\\Exceptions\\PageNotFoundException",
+            "type": "::",
+            "args": [
+                "Controller or its method is not found: \\App\\Controllers\\Public::pdfscontratos"
+            ]
+        },
+        {
+            "file": "C:\\xamppp\\htdocs\\adminlte\\system\\CodeIgniter.php",
+            "line": 362,
+            "function": "display404errors",
+            "class": "CodeIgniter\\CodeIgniter",
+            "type": "->",
+            "args": [
+                {}
+            ]
+        },
+        {
+            "file": "C:\\xamppp\\htdocs\\adminlte\\public\\index.php",
+            "line": 79,
+            "function": "run",
+            "class": "CodeIgniter\\CodeIgniter",
+            "type": "->",
+            "args": []
+        }
+    ]
+}

@@ -128,10 +128,34 @@
                 <li class="nav-item">
                     <a href="<?php echo base_url("contrato_consultor_nn/listarContratosConsultores"); ?>" class="nav-link" id="lista_ccontratosss_consultor" style="color: salmon;">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Lista de contratos</p>
+                        <p>Lista de contratos N</p>
                     </a>
                 </li>
-               
+                <li class="nav-item">
+                    <a href="<?php echo base_url("contrato_consultor_jj/vista_Contrato_subir_pdf_formulario_j"); ?>" class="nav-link" id="crear_contratos_consultoria_j" style="color: #98FF98;">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Añadir contrato consultor juridico</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="<?php echo base_url("contrato_consultor_jj/listarContratosConsultoresJuridicos"); ?>" class="nav-link" id="lista_ccontratosss_consultorj" style="color: #98FF98;">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Lista de contratos J</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="<?php echo base_url("contratos_voluntarios/vista_Contrato_subir_pdf_formulario_v"); ?>" class="nav-link" id="lista_ccontratosss_voluntario" style="color: #98D8D8;">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Añadir convenio individual</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="<?php echo base_url("contratos_voluntarios/listarContratosVoluntarios"); ?>" class="nav-link" id="lista_ccontratosss_voluntarios" style="color: #98D8D8;">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Lista de contratos J</p>
+                    </a>
+                </li>
             </ul>
         </li>
 
@@ -209,7 +233,42 @@
         <p> Subir PDF Consultor N</p>
     </a>
 </li>
-
+<li class="nav-item">
+    <a href="<?php echo base_url("consultor_juridico/listarConsultoresJuridicos "); ?>" class="nav-link" id="listaconulto_juridicor" style="color: #98FF98;">
+        <i class="far fa-circle nav-icon"></i>
+        <p> Lista consultor juridica</p>
+    </a>
+</li>
+<li class="nav-item">
+    <a href="<?php echo base_url("consultor_juridico/vista_formulario_crear_consultores_juridicas"); ?>" class="nav-link" id="vista_formulario_crear_consultores_juridico" style="color: #98FF98;">
+        <i class="far fa-circle nav-icon"></i>
+        <p> Crear consultor juridica</p>
+    </a>
+</li>
+<li class="nav-item">
+    <a href="<?php echo base_url("consultor_juridico/lista_subir__pdf_consultores_juridicos"); ?>" class="nav-link" id="vista_formulario_crear_consultores_naturalsd" style="color: #98FF98;">
+        <i class="far fa-circle nav-icon"></i>
+        <p> Subir PDF Consultor J</p>
+    </a>
+</li>
+<li class="nav-item">
+    <a href="<?php echo base_url("voluntarios/listarVoluntarios "); ?>" class="nav-link" id="listaconulto_voluntario" style="color: #98D8D8;">
+        <i class="far fa-circle nav-icon"></i>
+        <p> Lista voluntarios</p>
+    </a>
+</li>
+<li class="nav-item">
+    <a href="<?php echo base_url("voluntarios/vista_formulario_crear_voluntario"); ?>" class="nav-link" id="vista_formulario_crear_voluntarios" style="color: #98D8D8;">
+        <i class="far fa-circle nav-icon"></i>
+        <p> Crear voluntarios</p>
+    </a>
+</li>
+<li class="nav-item">
+    <a href="<?php echo base_url("voluntarios/lista_subir_pdf_voluntarios"); ?>" class="nav-link" id="vista_formulario_crear_volun" style="color: #98D8D8;">
+        <i class="far fa-circle nav-icon"></i>
+        <p> Subir PDFs voluntarios</p>
+    </a>
+</li>
 
                 
             </ul>

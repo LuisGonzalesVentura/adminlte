@@ -45,6 +45,26 @@
             <th>Acciones</th>
         </tr>
     </thead>
+
+
+    <div class="form-inline">
+    <div class="input-group" data-widget="sidebar-search">
+        <input class="form-control form-control-sidebar" id="searchInput" type="search" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+            <button class="btn btn-sidebar" id="searchButton">
+                <i class="fas fa-search fa-fw"></i>
+            </button>
+        </div>
+    </div>
+    
+    <div class="card-footer">
+    <div>
+    <?= anchor(current_url(), '<i class="ri-list-check"></i>', ['class' => 'btn btn-primary']); ?>
+    </div>
+   
+                            </div>
+                            
+</div>
     <tbody>
         <!-- Iterar sobre los contratos de consultoría -->
         <?php foreach ($contratos_consultores as $contrato_consultor) : ?>
